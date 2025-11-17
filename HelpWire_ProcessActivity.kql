@@ -1,6 +1,6 @@
 let ProcessActivity = _ASim_ProcessEvent
     | where EventType == "ProcessCreated"
-    | where CommandLine has_all ("helpwire://", "/service install", "urlparam", "token=")
+    | where CommandLine has_all ("urlparam", "helpwire://?token=")
         or (CommandLine contains "netsh.exe" and CommandLine has_any ("HelpWire Client", "HelpWire Unattended Access", "helpwire.exe"))
         or (CommandLine contains "helpwire.exe" and CommandLine has_all ("/rdc", "--peer"))
     | project
