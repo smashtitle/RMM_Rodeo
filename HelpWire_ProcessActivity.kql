@@ -10,3 +10,4 @@ let ProcessActivity = _ASim_ProcessEvent
         ActingProcessName,
         CommandLine,
         TargetProcessName;
+ProcessActivity
