@@ -10,3 +10,4 @@ let DNSActivity = _ASim_Dns
         DnsQuery,
         DnsResponseName,
         DnsResponseCode;
+DNSActivity
