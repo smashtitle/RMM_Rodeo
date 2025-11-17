@@ -1,0 +1,12 @@
+let DNSActivity = _ASim_Dns
+    | where EventType == "Query"
+    | where DnsQuery =~ "stun.helpwire.app"
+    | project
+        EventStartTime,
+        SrcHostname,
+        User,
+        SrcProcessId,
+        SrcProcessName,
+        DnsQuery,
+        DnsResponseName,
+        DnsResponseCode;
