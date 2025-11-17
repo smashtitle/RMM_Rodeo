@@ -1,0 +1,13 @@
+let RegistryActivity = _ASim_RegistryEvent
+    | where EventType == "RegistryValueSet"
+    | where (RegistryKey has "HelpWire\\Client" and RegistryValue has "helpwire.exe") 
+        or (RegistryKey has "Software\\Microsoft\\Windows\\CurrentVersion\\RunOnce" and RegistryValue has "Electronic.HelpWire2.Chat-Client")
+    | project 
+        EventStartTime,
+        Dvc,
+        RegistryKey,
+        RegistryValue,
+        ActorUsername,
+        ActingProcessName,
+        ActingProcessId;
+RegistryActivity
