@@ -1,0 +1,1060 @@
+Time of Day,Process Name,PID,Operation,Path,Result,Detail
+10:09:40.7495079 PM,helpwire.exe,11772,Process Start,,SUCCESS,"Parent PID: 4592, Command line: ""C:\Program Files (x86)\HelpWire\Client\helpwire.exe"" /service install urlparam ""helpwire://?token=Ekso9Kk8chJVqcYa9x1ratwIy0CsT60AwutJ4Y06&server=www.helpwire.app&quick=0"", Current directory: C:\Users\azureadmin\Downloads\, Environment: ;	=::=::\;	ALLUSERSPROFILE=C:\ProgramData;	APPDATA=C:\Users\azureadmin\AppData\Roaming;	CLIENTNAME=MacBook-Air;	CommonProgramFiles=C:\Program Files (x86)\Common Files;	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files;	CommonProgramW6432=C:\Program Files\Common Files;	COMPUTERNAME=SMASHTITLE-SAND;	ComSpec=C:\Windows\system32\cmd.exe;	DriverData=C:\Windows\System32\Drivers\DriverData;	EFC_8136_1262719628=1;	EFC_8136_1592913036=1;	EFC_8136_2283032206=1;	EFC_8136_2775293581=1;	EFC_8136_3789132940=1;	FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer;	FPS_BROWSER_USER_PROFILE_STRING=Default;	HOMEDRIVE=C:;	HOMEPATH=\Users\azureadmin;	LOCALAPPDATA=C:\Users\azureadmin\AppData\Local;	LOGONSERVER=\\SMASHTITLE-SAND;	NUMBER_OF_PROCESSORS=4;	OneDrive=C:\Users\azureadmin\OneDrive;	OS=Windows_NT;	Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Tailscale\;C:\Users\azureadmin\AppData\Local\Microsoft\WindowsApps;;	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;	PROCESSOR_ARCHITECTURE=x86;	PROCESSOR_ARCHITEW6432=AMD64;	PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD;	PROCESSOR_LEVEL=25;	PROCESSOR_REVISION=0101;	ProgramData=C:\ProgramData;	ProgramFiles=C:\Program Files (x86);	ProgramFiles(x86)=C:\Program Files (x86);	ProgramW6432=C:\Program Files;	PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;	PUBLIC=C:\Users\Public;	SESSIONNAME=RDP-Tcp#0;	SystemDrive=C:;	SystemRoot=C:\Windows;	TEMP=C:\Users\AZUREA~1\AppData\Local\Temp;	TMP=C:\Users\AZUREA~1\AppData\Local\Temp;	USERDOMAIN=SMASHTITLE-SAND;	USERDOMAIN_ROAMINGPROFILE=SMASHTITLE-SAND;	USERNAME=azureadmin;	USERPROFILE=C:\Users\azureadmin;	windir=C:\Windows"
+10:09:40.7495162 PM,helpwire.exe,11772,Thread Create,,SUCCESS,Thread ID: 13852
+10:09:40.7742912 PM,helpwire.exe,11772,Load Image,C:\Program Files (x86)\HelpWire\Client\helpwire.exe,SUCCESS,"Image Base: 0x4a0000, Image Size: 0xe5c000"
+10:09:40.7748225 PM,helpwire.exe,11772,Load Image,C:\Windows\System32\ntdll.dll,SUCCESS,"Image Base: 0x7ff961c00000, Image Size: 0x268000"
+10:09:40.7759727 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\ntdll.dll,SUCCESS,"Image Base: 0x77c60000, Image Size: 0x1bf000"
+10:09:40.7761058 PM,helpwire.exe,11772,CreateFile,C:\Windows\Prefetch\HELPWIRE.EXE-A80B3D5A.pf,NAME NOT FOUND,"Desired Access: Generic Read, Disposition: Open, Options: Synchronous IO Non-Alert, Attributes: n/a, ShareMode: None, AllocationSize: n/a"
+10:09:40.7762781 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Nls\CodePage,REPARSE,Desired Access: Read
+10:09:40.7763024 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Nls\CodePage,SUCCESS,Desired Access: Read
+10:09:40.7763234 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Nls\CodePage\ACP,SUCCESS,"Type: REG_SZ, Length: 10, Data: 1252"
+10:09:40.7763428 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Nls\CodePage\OEMCP,SUCCESS,"Type: REG_SZ, Length: 8, Data: 437"
+10:09:40.7763570 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\Nls\CodePage,SUCCESS,
+10:09:40.7764958 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Session Manager,REPARSE,Desired Access: Query Value
+10:09:40.7765152 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Session Manager,SUCCESS,Desired Access: Query Value
+10:09:40.7765336 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Session Manager\RaiseExceptionOnPossibleDeadlock,NAME NOT FOUND,Length: 80
+10:09:40.7765650 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\Session Manager,SUCCESS,
+10:09:40.7765900 PM,helpwire.exe,11772,RegOpenKey,HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Segment Heap,REPARSE,Desired Access: Query Value
+10:09:40.7766071 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Session Manager\Segment Heap,NAME NOT FOUND,Desired Access: Query Value
+10:09:40.7766356 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options,SUCCESS,"Desired Access: Query Value, Enumerate Sub Keys"
+10:09:40.7766572 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\helpwire.exe,NAME NOT FOUND,"Desired Access: Query Value, Enumerate Sub Keys"
+10:09:40.7771052 PM,helpwire.exe,11772,CreateFile,C:\Windows,SUCCESS,"Desired Access: Execute/Traverse, Synchronize, Disposition: Open, Options: Directory, Synchronous IO Non-Alert, Attributes: n/a, ShareMode: Read, Write, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7778500 PM,helpwire.exe,11772,Load Image,C:\Windows\System32\wow64.dll,SUCCESS,"Image Base: 0x7ff961900000, Image Size: 0x55000"
+10:09:40.7784633 PM,helpwire.exe,11772,Load Image,C:\Windows\System32\wow64base.dll,SUCCESS,"Image Base: 0x7ff95f9d0000, Image Size: 0xb000"
+10:09:40.7791760 PM,helpwire.exe,11772,Load Image,C:\Windows\System32\wow64win.dll,SUCCESS,"Image Base: 0x7ff9617b0000, Image Size: 0x89000"
+10:09:40.7799556 PM,helpwire.exe,11772,Load Image,C:\Windows\System32\wow64con.dll,SUCCESS,"Image Base: 0x7ff95f9e0000, Image Size: 0x18000"
+10:09:40.7804705 PM,helpwire.exe,11772,CreateFile,C:\Windows,SUCCESS,"Desired Access: Read Attributes, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Open For Backup, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7805058 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows,SUCCESS,Name: \Windows
+10:09:40.7805235 PM,helpwire.exe,11772,CloseFile,C:\Windows,SUCCESS,
+10:09:40.7805674 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\Microsoft\Wow64\x86,SUCCESS,Desired Access: Read
+10:09:40.7805905 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\Microsoft\Wow64\x86\helpwire.exe,NAME NOT FOUND,Length: 520
+10:09:40.7806038 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\Microsoft\Wow64\x86\(Default),SUCCESS,"Type: REG_SZ, Length: 26, Data: wow64cpu.dll"
+10:09:40.7806201 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\Microsoft\Wow64\x86,SUCCESS,
+10:09:40.7812613 PM,helpwire.exe,11772,Load Image,C:\Windows\System32\wow64cpu.dll,SUCCESS,"Image Base: 0x77c50000, Image Size: 0xa000"
+10:09:40.7814955 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows\System32\wow64cpu.dll,SUCCESS,Name: \Windows\System32\wow64cpu.dll
+10:09:40.7816640 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Nls\CodePage,REPARSE,Desired Access: Read
+10:09:40.7816860 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Nls\CodePage,SUCCESS,Desired Access: Read
+10:09:40.7817063 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Control\Nls\CodePage,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.7817189 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Nls\CodePage\ACP,SUCCESS,"Type: REG_SZ, Length: 10, Data: 1252"
+10:09:40.7817379 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Nls\CodePage\OEMCP,SUCCESS,"Type: REG_SZ, Length: 8, Data: 437"
+10:09:40.7817519 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\Nls\CodePage,SUCCESS,
+10:09:40.7818410 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Session Manager,REPARSE,Desired Access: Query Value
+10:09:40.7818592 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Session Manager,SUCCESS,Desired Access: Query Value
+10:09:40.7818777 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Control\Session Manager,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.7819031 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Session Manager\RaiseExceptionOnPossibleDeadlock,NAME NOT FOUND,Length: 80
+10:09:40.7819297 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\Session Manager,SUCCESS,
+10:09:40.7819569 PM,helpwire.exe,11772,RegOpenKey,HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Segment Heap,REPARSE,Desired Access: Query Value
+10:09:40.7819757 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Session Manager\Segment Heap,NAME NOT FOUND,Desired Access: Query Value
+10:09:40.7824580 PM,helpwire.exe,11772,CreateFile,C:\Users\azureadmin\Downloads,SUCCESS,"Desired Access: Execute/Traverse, Synchronize, Disposition: Open, Options: Directory, Synchronous IO Non-Alert, Attributes: n/a, ShareMode: Read, Write, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7831573 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\kernel32.dll,SUCCESS,"Image Base: 0x766b0000, Image Size: 0xf0000"
+10:09:40.7843332 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\KernelBase.dll,SUCCESS,"Image Base: 0x76ee0000, Image Size: 0x2cb000"
+10:09:40.7855099 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\StateSeparation\RedirectionMap\Keys,REPARSE,Desired Access: Read
+10:09:40.7855304 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\StateSeparation\RedirectionMap\Keys,NAME NOT FOUND,Desired Access: Read
+10:09:40.7858884 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\SafeBoot\Option,REPARSE,"Desired Access: Query Value, Set Value"
+10:09:40.7859022 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\SafeBoot\Option,NAME NOT FOUND,"Desired Access: Query Value, Set Value"
+10:09:40.7859176 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Srp\GP\DLL,REPARSE,Desired Access: Read
+10:09:40.7859258 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Srp\GP\DLL,NAME NOT FOUND,Desired Access: Read
+10:09:40.7859421 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Policies\Microsoft\Windows\Safer\CodeIdentifiers,REPARSE,Desired Access: Query Value
+10:09:40.7859528 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Policies\Microsoft\Windows\Safer\CodeIdentifiers,SUCCESS,Desired Access: Query Value
+10:09:40.7859682 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.7859754 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers\TransparentEnabled,NAME NOT FOUND,Length: 80
+10:09:40.7859858 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\Policies\Microsoft\Windows\safer\codeidentifiers,SUCCESS,
+10:09:40.7860020 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers,NAME NOT FOUND,Desired Access: Query Value
+10:09:40.7860442 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\FileSystem\,REPARSE,Desired Access: Read
+10:09:40.7860680 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\FileSystem,SUCCESS,Desired Access: Read
+10:09:40.7860801 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Control\FileSystem,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.7860873 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\FileSystem\LongPathsEnabled,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 0"
+10:09:40.7860967 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\FileSystem,SUCCESS,
+10:09:40.7864867 PM,helpwire.exe,11772,Thread Create,,SUCCESS,Thread ID: 500
+10:09:40.7866093 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Session Manager,REPARSE,Desired Access: Query Value
+10:09:40.7866319 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Session Manager,SUCCESS,Desired Access: Query Value
+10:09:40.7866518 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Control\Session Manager,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.7866637 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Session Manager\SafeDllSearchMode,NAME NOT FOUND,Length: 16
+10:09:40.7871811 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\crypt32.dll,SUCCESS,"Image Base: 0x76840000, Image Size: 0x107000"
+10:09:40.7874066 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\WINMM.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.7877541 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\winmm.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7878327 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\winmm.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:06 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:06 PM, ChangeTime: 11/9/2025 7:14:31 PM, FileAttributes: A"
+10:09:40.7878482 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\winmm.dll,SUCCESS,
+10:09:40.7879606 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\ucrtbase.dll,SUCCESS,"Image Base: 0x75d50000, Image Size: 0x110000"
+10:09:40.7879708 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\winmm.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7880299 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\winmm.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.7880578 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\winmm.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.7881499 PM,helpwire.exe,11772,Thread Create,,SUCCESS,Thread ID: 7532
+10:09:40.7886057 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\winmm.dll,SUCCESS,"Image Base: 0x74910000, Image Size: 0x33000"
+10:09:40.7887323 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\winmm.dll,SUCCESS,
+10:09:40.7889003 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\Wldap32.dll,SUCCESS,"Image Base: 0x75f00000, Image Size: 0x63000"
+10:09:40.7893323 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\ncrypt.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.7898476 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\user32.dll,SUCCESS,"Image Base: 0x76a60000, Image Size: 0x1ca000"
+10:09:40.7899119 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\ncrypt.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7899552 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\ncrypt.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:24 PM, LastAccessTime: 11/11/2025 10:09:40 PM, LastWriteTime: 10/11/2025 4:18:24 PM, ChangeTime: 11/9/2025 4:07:26 PM, FileAttributes: A"
+10:09:40.7899691 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\ncrypt.dll,SUCCESS,
+10:09:40.7902885 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\ncrypt.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7904841 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\ncrypt.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.7905144 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\ncrypt.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.7910450 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\win32u.dll,SUCCESS,"Image Base: 0x77850000, Image Size: 0x1a000"
+10:09:40.7911775 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\ncrypt.dll,SUCCESS,"Image Base: 0x748e0000, Image Size: 0x28000"
+10:09:40.7918616 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\sechost.dll,SUCCESS,"Image Base: 0x77a50000, Image Size: 0x83000"
+10:09:40.7919044 PM,helpwire.exe,11772,Thread Create,,SUCCESS,Thread ID: 8116
+10:09:40.7919094 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\gdi32.dll,SUCCESS,"Image Base: 0x75d20000, Image Size: 0x23000"
+10:09:40.7920260 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\ncrypt.dll,SUCCESS,
+10:09:40.7923823 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\dwmapi.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.7926083 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\dwmapi.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7926867 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\dwmapi.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:12 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:12 PM, ChangeTime: 11/9/2025 7:14:19 PM, FileAttributes: A"
+10:09:40.7927026 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\dwmapi.dll,SUCCESS,
+10:09:40.7928181 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\dwmapi.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7928305 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\gdi32full.dll,SUCCESS,"Image Base: 0x75ad0000, Image Size: 0xec000"
+10:09:40.7928733 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\dwmapi.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.7929073 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\dwmapi.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.7935599 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\dwmapi.dll,SUCCESS,"Image Base: 0x748b0000, Image Size: 0x24000"
+10:09:40.7936593 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\msvcp_win.dll,SUCCESS,"Image Base: 0x75e70000, Image Size: 0x85000"
+10:09:40.7942622 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\combase.dll,SUCCESS,"Image Base: 0x75810000, Image Size: 0x285000"
+10:09:40.7945841 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\advapi32.dll,SUCCESS,"Image Base: 0x767b0000, Image Size: 0x7f000"
+10:09:40.7952135 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\msvcrt.dll,SUCCESS,"Image Base: 0x76e00000, Image Size: 0xc7000"
+10:09:40.7959382 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\rpcrt4.dll,SUCCESS,"Image Base: 0x19a0000, Image Size: 0xbc000"
+10:09:40.7965690 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\shell32.dll,SUCCESS,"Image Base: 0x771b0000, Image Size: 0x627000"
+10:09:40.7965772 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\MSIMG32.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.7970246 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\msimg32.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7970582 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\msimg32.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:16 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:16 PM, ChangeTime: 11/9/2025 7:14:31 PM, FileAttributes: A"
+10:09:40.7970699 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\msimg32.dll,SUCCESS,
+10:09:40.7972049 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\msimg32.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7972550 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\msimg32.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.7972894 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\msimg32.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.7974839 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\WinTypes.dll,SUCCESS,"Image Base: 0x77b50000, Image Size: 0xfb000"
+10:09:40.7976293 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\SideBySide\AssemblyStorageRoots,NAME NOT FOUND,Desired Access: Enumerate Sub Keys
+10:09:40.7978523 PM,helpwire.exe,11772,CreateFile,C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.6899_none_85bc35c1f7aab1c7,SUCCESS,"Desired Access: Execute/Traverse, Synchronize, Disposition: Open, Options: Directory, Synchronous IO Non-Alert, Attributes: n/a, ShareMode: Read, Write, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7979204 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\msimg32.dll,SUCCESS,"Image Base: 0x748a0000, Image Size: 0x6000"
+10:09:40.7980172 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\msimg32.dll,SUCCESS,
+10:09:40.7981164 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\WINSPOOL.DRV,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.7986617 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\winspool.drv,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7986782 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\shlwapi.dll,SUCCESS,"Image Base: 0x76950000, Image Size: 0x4f000"
+10:09:40.7987133 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\winspool.drv,SUCCESS,"CreationTime: 10/11/2025 4:18:27 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:28 PM, ChangeTime: 11/9/2025 7:14:31 PM, FileAttributes: A"
+10:09:40.7987369 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\winspool.drv,SUCCESS,
+10:09:40.7990094 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\winspool.drv,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7990699 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\winspool.drv,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.7991005 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\winspool.drv,SUCCESS,SyncType: SyncTypeOther
+10:09:40.7991928 PM,helpwire.exe,11772,CreateFile,C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.6899_none_85bc35c1f7aab1c7\comctl32.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7992266 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.6899_none_85bc35c1f7aab1c7\comctl32.dll,SUCCESS,"CreationTime: 10/11/2025 4:16:56 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 12:53:50 AM, ChangeTime: 11/9/2025 4:07:29 PM, FileAttributes: A"
+10:09:40.7992421 PM,helpwire.exe,11772,CloseFile,C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.6899_none_85bc35c1f7aab1c7\comctl32.dll,SUCCESS,
+10:09:40.7993571 PM,helpwire.exe,11772,CreateFile,C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.6899_none_85bc35c1f7aab1c7\comctl32.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.7993976 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.6899_none_85bc35c1f7aab1c7\comctl32.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.7994263 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.6899_none_85bc35c1f7aab1c7\comctl32.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.7994659 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\ole32.dll,SUCCESS,"Image Base: 0x75bc0000, Image Size: 0x154000"
+10:09:40.7997794 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\winspool.drv,SUCCESS,"Image Base: 0x74810000, Image Size: 0x8b000"
+10:09:40.8000075 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\rpcrt4.dll,SUCCESS,"Image Base: 0x756e0000, Image Size: 0xbc000"
+10:09:40.8000371 PM,helpwire.exe,11772,Load Image,C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.6899_none_85bc35c1f7aab1c7\comctl32.dll,SUCCESS,"Image Base: 0x74590000, Image Size: 0x229000"
+10:09:40.8002246 PM,helpwire.exe,11772,CloseFile,C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.6899_none_85bc35c1f7aab1c7\comctl32.dll,SUCCESS,
+10:09:40.8005458 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\UxTheme.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8006545 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\oleaut32.dll,SUCCESS,"Image Base: 0x769b0000, Image Size: 0x9e000"
+10:09:40.8006800 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\SHCore.dll,SUCCESS,"Image Base: 0x76160000, Image Size: 0xcf000"
+10:09:40.8009168 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\winspool.drv,SUCCESS,
+10:09:40.8014936 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\rpcrt4.dll,SUCCESS,"Image Base: 0x19a0000, Image Size: 0xbc000"
+10:09:40.8016683 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\SideBySide\AssemblyStorageRoots,NAME NOT FOUND,Desired Access: Enumerate Sub Keys
+10:09:40.8017108 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\uxtheme.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8017923 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\uxtheme.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:49 PM, LastAccessTime: 11/11/2025 10:09:40 PM, LastWriteTime: 10/11/2025 4:18:49 PM, ChangeTime: 11/9/2025 4:21:25 PM, FileAttributes: A"
+10:09:40.8017939 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\cfgmgr32.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8018075 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\uxtheme.dll,SUCCESS,
+10:09:40.8018242 PM,helpwire.exe,11772,CreateFile,C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.6725_none_b6a081e55243135f,SUCCESS,"Desired Access: Execute/Traverse, Synchronize, Disposition: Open, Options: Directory, Synchronous IO Non-Alert, Attributes: n/a, ShareMode: Read, Write, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8019107 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\cfgmgr32.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:04 PM, LastAccessTime: 11/11/2025 10:09:40 PM, LastWriteTime: 10/11/2025 4:18:04 PM, ChangeTime: 10/11/2025 5:44:09 PM, FileAttributes: A"
+10:09:40.8019344 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\cfgmgr32.dll,SUCCESS,
+10:09:40.8023562 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\uxtheme.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8024605 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\uxtheme.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8024980 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\cfgmgr32.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8025095 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\uxtheme.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8026022 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\cfgmgr32.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8026436 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\ws2_32.dll,SUCCESS,"Image Base: 0x77ae0000, Image Size: 0x61000"
+10:09:40.8031780 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\cfgmgr32.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8034418 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\wintrust.dll,SUCCESS,"Image Base: 0x76cd0000, Image Size: 0x65000"
+10:09:40.8036126 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\uxtheme.dll,SUCCESS,"Image Base: 0x74500000, Image Size: 0x7f000"
+10:09:40.8038348 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\uxtheme.dll,SUCCESS,
+10:09:40.8042790 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\cfgmgr32.dll,SUCCESS,"Image Base: 0x747c0000, Image Size: 0x43000"
+10:09:40.8043657 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\oledlg.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8044169 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\cfgmgr32.dll,SUCCESS,
+10:09:40.8047481 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\oledlg.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8047905 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\oledlg.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:09 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:09 PM, ChangeTime: 10/11/2025 5:44:09 PM, FileAttributes: A"
+10:09:40.8048058 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\oledlg.dll,SUCCESS,
+10:09:40.8048508 PM,helpwire.exe,11772,CreateFile,C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.6725_none_b6a081e55243135f\GdiPlus.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8048840 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.6725_none_b6a081e55243135f\GdiPlus.dll,SUCCESS,"CreationTime: 10/11/2025 4:19:33 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 9/30/2025 2:29:38 PM, ChangeTime: 11/9/2025 4:21:26 PM, FileAttributes: A"
+10:09:40.8048989 PM,helpwire.exe,11772,CloseFile,C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.6725_none_b6a081e55243135f\GdiPlus.dll,SUCCESS,
+10:09:40.8049342 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\oledlg.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8050134 PM,helpwire.exe,11772,CreateFile,C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.6725_none_b6a081e55243135f\GdiPlus.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8050334 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\oledlg.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8050496 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.6725_none_b6a081e55243135f\GdiPlus.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8050616 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\oledlg.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8050726 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.6725_none_b6a081e55243135f\GdiPlus.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8052282 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\setupapi.dll,SUCCESS,"Image Base: 0x76250000, Image Size: 0x451000"
+10:09:40.8057719 PM,helpwire.exe,11772,Load Image,C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.6725_none_b6a081e55243135f\GdiPlus.dll,SUCCESS,"Image Base: 0x74370000, Image Size: 0x17e000"
+10:09:40.8058209 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\oledlg.dll,SUCCESS,"Image Base: 0x74330000, Image Size: 0x2e000"
+10:09:40.8059409 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\oledlg.dll,SUCCESS,
+10:09:40.8059459 PM,helpwire.exe,11772,CloseFile,C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.6725_none_b6a081e55243135f\GdiPlus.dll,SUCCESS,
+10:09:40.8062861 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\IPHLPAPI.DLL,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8063539 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\imm32.dll,SUCCESS,"Image Base: 0x75aa0000, Image Size: 0x25000"
+10:09:40.8064027 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\WTSAPI32.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8069067 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\IPHLPAPI.DLL,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8069644 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\IPHLPAPI.DLL,SUCCESS,"CreationTime: 10/11/2025 4:18:46 PM, LastAccessTime: 11/11/2025 10:09:40 PM, LastWriteTime: 10/11/2025 4:18:46 PM, ChangeTime: 11/9/2025 4:07:26 PM, FileAttributes: A"
+10:09:40.8069798 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\IPHLPAPI.DLL,SUCCESS,
+10:09:40.8070398 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\wtsapi32.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8071909 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\wtsapi32.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:46 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:46 PM, ChangeTime: 10/11/2025 5:44:10 PM, FileAttributes: A"
+10:09:40.8072063 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\wtsapi32.dll,SUCCESS,
+10:09:40.8072066 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\VERSION.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8075629 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\IPHLPAPI.DLL,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8076703 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\wtsapi32.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8077734 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\wtsapi32.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8078015 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\version.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8078023 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\wtsapi32.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8078385 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\version.dll,SUCCESS,"CreationTime: 4/1/2024 7:22:09 AM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 4/1/2024 7:22:09 AM, ChangeTime: 10/11/2025 5:44:10 PM, FileAttributes: A"
+10:09:40.8078652 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\version.dll,SUCCESS,
+10:09:40.8078720 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\IPHLPAPI.DLL,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8079032 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\IPHLPAPI.DLL,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8084944 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\wtsapi32.dll,SUCCESS,"Image Base: 0x74d60000, Image Size: 0x20000"
+10:09:40.8086738 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\wtsapi32.dll,SUCCESS,
+10:09:40.8088035 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\version.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8088166 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\IPHLPAPI.DLL,SUCCESS,"Image Base: 0x74300000, Image Size: 0x27000"
+10:09:40.8088934 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\version.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8089176 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\USERENV.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8089288 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\version.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8089760 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\IPHLPAPI.DLL,SUCCESS,
+10:09:40.8092558 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\bcrypt.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8098385 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\version.dll,SUCCESS,"Image Base: 0x74d90000, Image Size: 0x8000"
+10:09:40.8098554 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\userenv.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8099175 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\userenv.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:49 PM, LastAccessTime: 11/11/2025 10:09:40 PM, LastWriteTime: 10/11/2025 4:18:49 PM, ChangeTime: 10/11/2025 5:44:10 PM, FileAttributes: A"
+10:09:40.8099345 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\userenv.dll,SUCCESS,
+10:09:40.8100414 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\version.dll,SUCCESS,
+10:09:40.8103284 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\OLEACC.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8105172 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\bcrypt.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8105963 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\userenv.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8105970 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\bcrypt.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:07 PM, LastAccessTime: 11/11/2025 10:09:40 PM, LastWriteTime: 10/11/2025 4:18:07 PM, ChangeTime: 10/11/2025 5:44:09 PM, FileAttributes: A"
+10:09:40.8106143 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\bcrypt.dll,SUCCESS,
+10:09:40.8106811 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\userenv.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8107461 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\userenv.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8112435 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\dwmapi.dll,SUCCESS,
+10:09:40.8112556 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\bcrypt.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8113805 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\bcrypt.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8114342 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\bcrypt.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8115402 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\oleacc.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8116153 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\userenv.dll,SUCCESS,"Image Base: 0x74b70000, Image Size: 0x1f000"
+10:09:40.8117419 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\userenv.dll,SUCCESS,
+10:09:40.8118337 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\oleacc.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:25 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:25 PM, ChangeTime: 11/9/2025 4:21:26 PM, FileAttributes: A"
+10:09:40.8118554 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\oleacc.dll,SUCCESS,
+10:09:40.8121565 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\MAGNIFICATION.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8122578 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\oleacc.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8123337 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\oleacc.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8123652 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\oleacc.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8125370 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\bcrypt.dll,SUCCESS,"Image Base: 0x742e0000, Image Size: 0x1a000"
+10:09:40.8126391 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\bcrypt.dll,SUCCESS,
+10:09:40.8129152 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\d2d1.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8131345 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\oleacc.dll,SUCCESS,"Image Base: 0x74270000, Image Size: 0x5e000"
+10:09:40.8132725 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\oleacc.dll,SUCCESS,
+10:09:40.8133828 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\d2d1.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8134411 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\d2d1.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:11 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:11 PM, ChangeTime: 10/11/2025 5:44:09 PM, FileAttributes: A"
+10:09:40.8134565 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\d2d1.dll,SUCCESS,
+10:09:40.8134662 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\dxgi.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8135303 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\Magnification.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8135593 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\Magnification.dll,SUCCESS,"CreationTime: 4/1/2024 7:22:08 AM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 4/1/2024 7:22:08 AM, ChangeTime: 10/11/2025 5:44:10 PM, FileAttributes: A"
+10:09:40.8135738 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\Magnification.dll,SUCCESS,
+10:09:40.8139087 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\d2d1.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8139991 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\d2d1.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8140255 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\d2d1.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8140303 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\Magnification.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8140743 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\Magnification.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8141281 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\Magnification.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8145040 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\dxgi.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8145467 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\dxgi.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:14 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:14 PM, ChangeTime: 11/9/2025 7:14:33 PM, FileAttributes: A"
+10:09:40.8145613 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\dxgi.dll,SUCCESS,
+10:09:40.8147227 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\dxgi.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8148174 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\dxgi.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8148480 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\dxgi.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8148931 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\d2d1.dll,SUCCESS,"Image Base: 0x73d30000, Image Size: 0x515000"
+10:09:40.8149283 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\Magnification.dll,SUCCESS,"Image Base: 0x74250000, Image Size: 0xe000"
+10:09:40.8150581 PM,helpwire.exe,11772,RegOpenKey,HKLM\SYSTEM\CurrentControlSet\Control\Nls\CustomLocale,REPARSE,Desired Access: Query Value
+10:09:40.8150803 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Nls\CustomLocale,SUCCESS,Desired Access: Query Value
+10:09:40.8151060 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Control\Nls\CustomLocale,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8151193 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Nls\CustomLocale\EMPTY,NAME NOT FOUND,Length: 120
+10:09:40.8151444 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Nls\CustomLocale\EMPTY,NAME NOT FOUND,Length: 120
+10:09:40.8151765 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\d2d1.dll,SUCCESS,
+10:09:40.8152124 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\NLS\Language,REPARSE,Desired Access: Read
+10:09:40.8152305 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\NLS\Language,SUCCESS,Desired Access: Read
+10:09:40.8152493 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Control\Nls\Language,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8152621 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Nls\Language\InstallLanguageFallback,NAME NOT FOUND,Length: 356
+10:09:40.8152775 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\Nls\Language,SUCCESS,
+10:09:40.8152980 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\MUI\UILanguages,REPARSE,Desired Access: Read
+10:09:40.8153132 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\MUI\UILanguages,SUCCESS,Desired Access: Read
+10:09:40.8155101 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\SspiCli.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8157047 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Control\MUI\UILanguages,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8157196 PM,helpwire.exe,11772,RegEnumKey,HKLM\System\CurrentControlSet\Control\MUI\UILanguages,SUCCESS,"Index: 0, Name: en-US"
+10:09:40.8157444 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Control\MUI\UILanguages,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8157598 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\MUI\UILanguages\en-US,SUCCESS,Desired Access: Read
+10:09:40.8157799 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\MUI\UILanguages\en-US\Type,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 273"
+10:09:40.8157888 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\dxgi.dll,SUCCESS,"Image Base: 0x73c20000, Image Size: 0x106000"
+10:09:40.8158053 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\MUI\UILanguages\en-US\AlternateCodePage,NAME NOT FOUND,Length: 12
+10:09:40.8158239 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\MUI\UILanguages\en-US,SUCCESS,
+10:09:40.8158394 PM,helpwire.exe,11772,RegEnumKey,HKLM\System\CurrentControlSet\Control\MUI\UILanguages,NO MORE ENTRIES,"Index: 1, Length: 512"
+10:09:40.8158511 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\sspicli.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8158558 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\MUI\UILanguages,SUCCESS,
+10:09:40.8158812 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\MUI\UILanguages\PendingDelete,REPARSE,Desired Access: Read
+10:09:40.8158974 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\MUI\UILanguages\PendingDelete,NAME NOT FOUND,Desired Access: Read
+10:09:40.8158994 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\sspicli.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:20 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:20 PM, ChangeTime: 10/11/2025 5:44:10 PM, FileAttributes: A"
+10:09:40.8159148 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\sspicli.dll,SUCCESS,
+10:09:40.8159182 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Policies\Microsoft\MUI\Settings,REPARSE,Desired Access: Read
+10:09:40.8159568 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\dxgi.dll,SUCCESS,
+10:09:40.8159620 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Policies\Microsoft\MUI\Settings,NAME NOT FOUND,Desired Access: Read
+10:09:40.8159914 PM,helpwire.exe,11772,RegOpenKey,HKCU,SUCCESS,"Desired Access: Maximum Allowed, Granted Access: All Access"
+10:09:40.8160165 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8160267 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,Query: Name
+10:09:40.8160439 PM,helpwire.exe,11772,RegOpenKey,HKCU\Control Panel\Desktop\MuiCached\MachineLanguageConfiguration,NAME NOT FOUND,Desired Access: Read
+10:09:40.8160695 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\MUI\Settings\LanguageConfiguration,REPARSE,Desired Access: Read
+10:09:40.8160868 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\MUI\Settings\LanguageConfiguration,SUCCESS,Desired Access: Read
+10:09:40.8161027 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Control\MUI\Settings\LanguageConfiguration,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8161122 PM,helpwire.exe,11772,RegEnumValue,HKLM\System\CurrentControlSet\Control\MUI\Settings\LanguageConfiguration,NO MORE ENTRIES,"Index: 0, Length: 512"
+10:09:40.8161342 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\MUI\Settings\LanguageConfiguration,SUCCESS,
+10:09:40.8161448 PM,helpwire.exe,11772,RegCloseKey,HKCU,SUCCESS,
+10:09:40.8161622 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Policies\Microsoft\MUI\Settings,REPARSE,Desired Access: Read
+10:09:40.8161862 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Policies\Microsoft\MUI\Settings,NAME NOT FOUND,Desired Access: Read
+10:09:40.8162073 PM,helpwire.exe,11772,RegOpenKey,HKCU,SUCCESS,"Desired Access: Maximum Allowed, Granted Access: All Access"
+10:09:40.8162318 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8162418 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,Query: Name
+10:09:40.8162579 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Policies\Microsoft\Control Panel\Desktop,NAME NOT FOUND,Desired Access: Read
+10:09:40.8162753 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8162871 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,Query: Name
+10:09:40.8163025 PM,helpwire.exe,11772,RegOpenKey,HKCU\Control Panel\Desktop\LanguageConfiguration,NAME NOT FOUND,Desired Access: Read
+10:09:40.8163161 PM,helpwire.exe,11772,RegCloseKey,HKCU,SUCCESS,
+10:09:40.8163329 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Policies\Microsoft\MUI\Settings,REPARSE,Desired Access: Read
+10:09:40.8163493 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Policies\Microsoft\MUI\Settings,NAME NOT FOUND,Desired Access: Read
+10:09:40.8163694 PM,helpwire.exe,11772,RegOpenKey,HKCU,SUCCESS,"Desired Access: Maximum Allowed, Granted Access: All Access"
+10:09:40.8163910 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8163997 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,Query: Name
+10:09:40.8164148 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Policies\Microsoft\Control Panel\Desktop,NAME NOT FOUND,Desired Access: Read
+10:09:40.8164329 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8164423 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,Query: Name
+10:09:40.8164569 PM,helpwire.exe,11772,RegOpenKey,HKCU\Control Panel\Desktop,SUCCESS,Desired Access: Read
+10:09:40.8164703 PM,helpwire.exe,11772,RegSetInfoKey,HKCU\Control Panel\Desktop,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8164836 PM,helpwire.exe,11772,RegQueryValue,HKCU\Control Panel\Desktop\PreferredUILanguages,NAME NOT FOUND,Length: 12
+10:09:40.8165008 PM,helpwire.exe,11772,RegCloseKey,HKCU\Control Panel\Desktop,SUCCESS,
+10:09:40.8165127 PM,helpwire.exe,11772,RegCloseKey,HKCU,SUCCESS,
+10:09:40.8165326 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Policies\Microsoft\MUI\Settings,REPARSE,Desired Access: Read
+10:09:40.8165490 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Policies\Microsoft\MUI\Settings,NAME NOT FOUND,Desired Access: Read
+10:09:40.8165731 PM,helpwire.exe,11772,RegOpenKey,HKCU,SUCCESS,"Desired Access: Maximum Allowed, Granted Access: All Access"
+10:09:40.8165985 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8166094 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,Query: Name
+10:09:40.8166277 PM,helpwire.exe,11772,RegOpenKey,HKCU\Control Panel\Desktop\MuiCached,SUCCESS,Desired Access: Read
+10:09:40.8166450 PM,helpwire.exe,11772,RegSetInfoKey,HKCU\Control Panel\Desktop\MuiCached,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8166570 PM,helpwire.exe,11772,RegQueryValue,HKCU\Control Panel\Desktop\MuiCached\MachinePreferredUILanguages,BUFFER OVERFLOW,Length: 12
+10:09:40.8166716 PM,helpwire.exe,11772,RegQueryValue,HKCU\Control Panel\Desktop\MuiCached\MachinePreferredUILanguages,SUCCESS,"Type: REG_MULTI_SZ, Length: 12, Data: en-US"
+10:09:40.8166873 PM,helpwire.exe,11772,RegCloseKey,HKCU\Control Panel\Desktop\MuiCached,SUCCESS,
+10:09:40.8166995 PM,helpwire.exe,11772,RegCloseKey,HKCU,SUCCESS,
+10:09:40.8167094 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\sspicli.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8167590 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\SideBySide,SUCCESS,Desired Access: Read
+10:09:40.8167788 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\sspicli.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8167812 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\SideBySide,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8167988 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\SideBySide\PreferExternalManifest,NAME NOT FOUND,Length: 20
+10:09:40.8168097 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\sspicli.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8168131 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\SideBySide,SUCCESS,
+10:09:40.8176898 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\powrprof.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8176989 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\sspicli.dll,SUCCESS,"Image Base: 0x74d20000, Image Size: 0x2b000"
+10:09:40.8177186 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\Magnification.dll,SUCCESS,"Desired Access: Generic Read, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8177757 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\powrprof.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:49 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:49 PM, ChangeTime: 11/9/2025 4:21:32 PM, FileAttributes: A"
+10:09:40.8177948 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\powrprof.dll,SUCCESS,
+10:09:40.8178781 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\sspicli.dll,SUCCESS,
+10:09:40.8183024 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\Magnification.dll,SUCCESS,
+10:09:40.8183043 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\powrprof.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8184430 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\SideBySide\AssemblyStorageRoots,NAME NOT FOUND,Desired Access: Enumerate Sub Keys
+10:09:40.8185797 PM,helpwire.exe,11772,CreateFile,C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.6725_none_b6a081e55243135f,SUCCESS,"Desired Access: Execute/Traverse, Synchronize, Disposition: Open, Options: Directory, Synchronous IO Non-Alert, Attributes: n/a, ShareMode: Read, Write, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8186449 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\Magnification.dll,SUCCESS,
+10:09:40.8186800 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\powrprof.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8188482 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\d3d9.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8188875 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\powrprof.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8197138 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\powrprof.dll,SUCCESS,"Image Base: 0x739c0000, Image Size: 0x55000"
+10:09:40.8198563 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\powrprof.dll,SUCCESS,
+10:09:40.8198634 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\d3d9.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8199023 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\d3d9.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:14 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:14 PM, ChangeTime: 10/11/2025 5:44:09 PM, FileAttributes: A"
+10:09:40.8199179 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\d3d9.dll,SUCCESS,
+10:09:40.8200335 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\d3d9.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8200835 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\d3d9.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8201140 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\d3d9.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8207724 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\d3d9.dll,SUCCESS,"Image Base: 0x73840000, Image Size: 0x179000"
+10:09:40.8208948 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\d3d9.dll,SUCCESS,
+10:09:40.8213657 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\DXCore.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8214040 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\DXCore.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:03 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:03 PM, ChangeTime: 11/9/2025 7:14:33 PM, FileAttributes: A"
+10:09:40.8214256 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\DXCore.dll,SUCCESS,
+10:09:40.8215699 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\d3d11.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8219006 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\DXCore.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8220020 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\DXCore.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8220332 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\DXCore.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8229627 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\DXCore.dll,SUCCESS,"Image Base: 0x73800000, Image Size: 0x37000"
+10:09:40.8230925 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\DXCore.dll,SUCCESS,
+10:09:40.8234312 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\d3d11.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8234907 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\d3d11.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:14 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:14 PM, ChangeTime: 11/9/2025 7:16:33 PM, FileAttributes: A"
+10:09:40.8235079 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\d3d11.dll,SUCCESS,
+10:09:40.8240162 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\d3d11.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8240900 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\d3d11.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8241246 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\d3d11.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8248474 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\d3d11.dll,SUCCESS,"Image Base: 0x73a20000, Image Size: 0x1f1000"
+10:09:40.8249948 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\d3d11.dll,SUCCESS,
+10:09:40.8258744 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions,REPARSE,Desired Access: Read
+10:09:40.8258963 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions,SUCCESS,Desired Access: Read
+10:09:40.8259172 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8259291 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions\(Default),SUCCESS,"Type: REG_SZ, Length: 18, Data: 00060502"
+10:09:40.8259477 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions\000605xx,SUCCESS,"Type: REG_SZ, Length: 26, Data: kernel32.dll"
+10:09:40.8266363 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\NTASN1.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8275288 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\ntasn1.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8276104 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\ntasn1.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:25 PM, LastAccessTime: 11/11/2025 10:09:40 PM, LastWriteTime: 10/11/2025 4:18:25 PM, ChangeTime: 11/9/2025 4:07:26 PM, FileAttributes: A"
+10:09:40.8276406 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\ntasn1.dll,SUCCESS,
+10:09:40.8278121 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\ntasn1.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8278581 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\ntasn1.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8278835 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\ntasn1.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8289410 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\ntasn1.dll,SUCCESS,"Image Base: 0x737d0000, Image Size: 0x28000"
+10:09:40.8290575 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\ntasn1.dll,SUCCESS,
+10:09:40.8294332 PM,helpwire.exe,11772,RegOpenKey,HKLM,SUCCESS,"Desired Access: Maximum Allowed, Granted Access: All Access"
+10:09:40.8294688 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8294823 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8295036 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,REPARSE,Desired Access: Read
+10:09:40.8295214 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,SUCCESS,Desired Access: Read
+10:09:40.8295608 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8295742 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\ldap\LdapClientIntegrity,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 1"
+10:09:40.8295926 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,
+10:09:40.8296100 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8296208 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8296380 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,REPARSE,Desired Access: Read
+10:09:40.8296535 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,SUCCESS,Desired Access: Read
+10:09:40.8296706 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8296818 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\ldap\LdapClientConfidentiality,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 1"
+10:09:40.8296961 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,
+10:09:40.8297127 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8297334 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8297496 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,REPARSE,Desired Access: Read
+10:09:40.8297636 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,SUCCESS,Desired Access: Read
+10:09:40.8297774 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8297875 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\ldap\UseOldHostResolutionOrder,NAME NOT FOUND,Length: 16
+10:09:40.8297993 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,
+10:09:40.8298125 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8298216 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8298366 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,REPARSE,Desired Access: Read
+10:09:40.8298535 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,SUCCESS,Desired Access: Read
+10:09:40.8298661 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8298758 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\ldap\UseHostnameAsAlias,NAME NOT FOUND,Length: 16
+10:09:40.8298871 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,
+10:09:40.8299010 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8299100 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8299241 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,REPARSE,Desired Access: Read
+10:09:40.8299366 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,SUCCESS,Desired Access: Read
+10:09:40.8299485 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8299576 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\ldap\RecvBufferSize,NAME NOT FOUND,Length: 16
+10:09:40.8299685 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,
+10:09:40.8300092 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8300212 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8300375 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP\helpwire.exe,REPARSE,Desired Access: Read
+10:09:40.8300507 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP\helpwire.exe,NAME NOT FOUND,Desired Access: Read
+10:09:40.8300713 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\AppModel\Lookaside\machine,NAME NOT FOUND,Desired Access: Read
+10:09:40.8300889 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\AppModel\Lookaside\user,NAME NOT FOUND,Desired Access: Read
+10:09:40.8301093 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8301185 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8301326 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,REPARSE,Desired Access: Read
+10:09:40.8301457 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,SUCCESS,Desired Access: Read
+10:09:40.8301591 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8302189 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\ldap\ParallelRecvMode,NAME NOT FOUND,Length: 16
+10:09:40.8302405 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,
+10:09:40.8302619 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8302744 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8302955 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,REPARSE,Desired Access: Read
+10:09:40.8303297 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\LDAP,SUCCESS,Desired Access: Read
+10:09:40.8303521 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8303661 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\ldap\DisableTLS1.3,NAME NOT FOUND,Length: 16
+10:09:40.8303824 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\ldap,SUCCESS,
+10:09:40.8307829 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows\SysWOW64\user32.dll,SUCCESS,Name: \Windows\SysWOW64\user32.dll
+10:09:40.8308159 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows\SysWOW64\user32.dll,SUCCESS,Name: \Windows\SysWOW64\user32.dll
+10:09:40.8310629 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Error Message Instrument\,REPARSE,Desired Access: Read
+10:09:40.8310838 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Error Message Instrument,NAME NOT FOUND,Desired Access: Read
+10:09:40.8311418 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows\SysWOW64\user32.dll,SUCCESS,Name: \Windows\SysWOW64\user32.dll
+10:09:40.8312102 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options,REPARSE,"Desired Access: Query Value, Enumerate Sub Keys"
+10:09:40.8312349 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options,SUCCESS,"Desired Access: Query Value, Enumerate Sub Keys"
+10:09:40.8312518 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8312720 PM,helpwire.exe,11772,RegQueryKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8312855 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\helpwire.exe,NAME NOT FOUND,"Desired Access: Query Value, Enumerate Sub Keys"
+10:09:40.8313093 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Policies\Microsoft\Windows\Display,REPARSE,Desired Access: Read
+10:09:40.8313252 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Policies\Microsoft\Windows\Display,NAME NOT FOUND,Desired Access: Read
+10:09:40.8313540 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Policies\Microsoft\Windows\Display,REPARSE,Desired Access: Read
+10:09:40.8313700 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Policies\Microsoft\Windows\Display,NAME NOT FOUND,Desired Access: Read
+10:09:40.8313902 PM,helpwire.exe,11772,RegQueryKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8314035 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\helpwire.exe,NAME NOT FOUND,"Desired Access: Query Value, Enumerate Sub Keys"
+10:09:40.8314237 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Policies\Microsoft\Windows\Display,REPARSE,Desired Access: Read
+10:09:40.8314389 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Policies\Microsoft\Windows\Display,NAME NOT FOUND,Desired Access: Read
+10:09:40.8314585 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Policies\Microsoft\Windows\Display,REPARSE,Desired Access: Read
+10:09:40.8314731 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Policies\Microsoft\Windows\Display,NAME NOT FOUND,Desired Access: Read
+10:09:40.8315337 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\GRE_Initialize,REPARSE,Desired Access: Read
+10:09:40.8315525 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\GRE_Initialize,SUCCESS,Desired Access: Read
+10:09:40.8315697 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\GRE_Initialize,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8315811 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\GRE_Initialize\DisableMetaFiles,NAME NOT FOUND,Length: 20
+10:09:40.8315957 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\GRE_Initialize,SUCCESS,
+10:09:40.8316724 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\helpwire.exe,NAME NOT FOUND,Desired Access: Read
+10:09:40.8317102 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\Policies\Microsoft\Windows\Control Panel\Desktop,NAME NOT FOUND,Desired Access: Read
+10:09:40.8317378 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Policies\Microsoft\Windows\Control Panel\Desktop,NAME NOT FOUND,Desired Access: Read
+10:09:40.8317616 PM,helpwire.exe,11772,RegOpenKey,HKCU\Control Panel\Desktop,SUCCESS,Desired Access: Read
+10:09:40.8317818 PM,helpwire.exe,11772,RegQueryValue,HKCU\Control Panel\Desktop\EnablePerProcessSystemDPI,NAME NOT FOUND,Length: 20
+10:09:40.8318025 PM,helpwire.exe,11772,RegCloseKey,HKCU\Control Panel\Desktop,SUCCESS,
+10:09:40.8319108 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Compatibility32,SUCCESS,Desired Access: Read
+10:09:40.8319381 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Compatibility32\helpwire,NAME NOT FOUND,Length: 172
+10:09:40.8319586 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\Compatibility32,SUCCESS,
+10:09:40.8319815 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\IME Compatibility,NAME NOT FOUND,Desired Access: Read
+10:09:40.8326051 PM,helpwire.exe,11772,RegQueryKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8326228 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\helpwire.exe,NAME NOT FOUND,"Desired Access: Query Value, Enumerate Sub Keys"
+10:09:40.8329699 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8329833 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8330373 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\OLE,REPARSE,Desired Access: Read
+10:09:40.8330625 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Ole,SUCCESS,Desired Access: Read
+10:09:40.8330806 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\Microsoft\Ole,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8330997 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\Microsoft\Ole\PageAllocatorUseSystemHeap,NAME NOT FOUND,Length: 20
+10:09:40.8331182 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\Microsoft\Ole,SUCCESS,
+10:09:40.8331381 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8331504 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8331737 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\OLE,REPARSE,Desired Access: Read
+10:09:40.8331964 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Ole,SUCCESS,Desired Access: Read
+10:09:40.8332150 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\Microsoft\Ole,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8332288 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\Microsoft\Ole\PageAllocatorSystemHeapIsPrivate,NAME NOT FOUND,Length: 20
+10:09:40.8332439 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\Microsoft\Ole,SUCCESS,
+10:09:40.8332619 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8332737 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8332945 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\OLE,REPARSE,Desired Access: Read
+10:09:40.8333113 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Ole,SUCCESS,Desired Access: Read
+10:09:40.8333266 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\Microsoft\Ole,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8333381 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\Microsoft\Ole\AggressiveMTATesting,NAME NOT FOUND,Length: 16
+10:09:40.8333525 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\Microsoft\Ole,SUCCESS,
+10:09:40.8334314 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8334433 PM,helpwire.exe,11772,RegOpenKey,HKLM,SUCCESS,Desired Access: Read
+10:09:40.8334581 PM,helpwire.exe,11772,RegSetInfoKey,HKLM,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8334816 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x100"
+10:09:40.8335045 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\Microsoft\Ole\FeatureDevelopmentProperties,NAME NOT FOUND,Desired Access: Read
+10:09:40.8335317 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x100"
+10:09:40.8335533 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\Microsoft\Ole\FeatureDevelopmentProperties,NAME NOT FOUND,Desired Access: Read
+10:09:40.8336008 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x100"
+10:09:40.8336141 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\Microsoft\Ole,SUCCESS,Desired Access: Read
+10:09:40.8336813 PM,helpwire.exe,11772,RegOpenKey,HKCU,SUCCESS,Desired Access: Read
+10:09:40.8336987 PM,helpwire.exe,11772,RegSetInfoKey,HKCU,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8337163 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x100"
+10:09:40.8337296 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Classes\Local Settings,REPARSE,Desired Access: Read
+10:09:40.8337445 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Classes\Local Settings,SUCCESS,Desired Access: Read
+10:09:40.8337643 PM,helpwire.exe,11772,RegCloseKey,HKCU,SUCCESS,
+10:09:40.8337856 PM,helpwire.exe,11772,RegQueryKey,HKCU\Software\Classes\Local Settings,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8338018 PM,helpwire.exe,11772,RegQueryKey,HKCU\Software\Classes\Local Settings,SUCCESS,Query: Name
+10:09:40.8338232 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Classes\Local Settings\Software\Microsoft\Ole\FeatureDevelopmentProperties,NAME NOT FOUND,Desired Access: Read
+10:09:40.8338469 PM,helpwire.exe,11772,RegQueryKey,HKCU\Software\Classes\Local Settings,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8338576 PM,helpwire.exe,11772,RegQueryKey,HKCU\Software\Classes\Local Settings,SUCCESS,Query: Name
+10:09:40.8338765 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Classes\Local Settings\Software\Microsoft\Ole\FeatureDevelopmentProperties,NAME NOT FOUND,Desired Access: Read
+10:09:40.8338990 PM,helpwire.exe,11772,RegQueryKey,HKCU\Software\Classes\Local Settings,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8339105 PM,helpwire.exe,11772,RegQueryKey,HKCU\Software\Classes\Local Settings,SUCCESS,Query: Name
+10:09:40.8339300 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Classes\Local Settings\Software\Microsoft\Ole,NAME NOT FOUND,Desired Access: Read
+10:09:40.8339506 PM,helpwire.exe,11772,RegQueryKey,HKCU\Software\Classes\Local Settings,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8339708 PM,helpwire.exe,11772,RegQueryKey,HKCU\Software\Classes\Local Settings,SUCCESS,Query: Name
+10:09:40.8340958 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Classes\Local Settings\Software\Microsoft,SUCCESS,Desired Access: Read
+10:09:40.8341180 PM,helpwire.exe,11772,RegSetInfoKey,HKCU\Software\Classes\Local Settings\Software\Microsoft,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8342181 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8342306 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8342540 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\OLE\Tracing,REPARSE,Desired Access: Read
+10:09:40.8342813 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Ole\Tracing,NAME NOT FOUND,Desired Access: Read
+10:09:40.8345405 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows\SysWOW64\dwmapi.dll,SUCCESS,Name: \Windows\SysWOW64\dwmapi.dll
+10:09:40.8347275 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows\SysWOW64\SHCore.dll,SUCCESS,Name: \Windows\SysWOW64\SHCore.dll
+10:09:40.8357036 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows\SysWOW64\shell32.dll,SUCCESS,Name: \Windows\SysWOW64\shell32.dll
+10:09:40.8359268 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.6899_none_85bc35c1f7aab1c7\comctl32.dll,SUCCESS,Name: \Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.6899_none_85bc35c1f7aab1c7\comctl32.dll
+10:09:40.8360973 PM,helpwire.exe,11772,CreateFile,C:\Windows\WindowsShell.Manifest,SUCCESS,"Desired Access: Generic Read/Execute, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8361398 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\WindowsShell.Manifest,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8361550 PM,helpwire.exe,11772,QueryStandardInformationFile,C:\Windows\WindowsShell.Manifest,SUCCESS,"AllocationSize: 4,096, EndOfFile: 670, NumberOfLinks: 2, DeletePending: False, Directory: False"
+10:09:40.8361813 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\WindowsShell.Manifest,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8362451 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\SideBySide,SUCCESS,Desired Access: Read
+10:09:40.8362803 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\SideBySide,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8362942 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\SideBySide\PreferExternalManifest,NAME NOT FOUND,Length: 20
+10:09:40.8363084 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\SideBySide,SUCCESS,
+10:09:40.8363446 PM,helpwire.exe,11772,QueryStandardInformationFile,C:\Windows\WindowsShell.Manifest,SUCCESS,"AllocationSize: 4,096, EndOfFile: 670, NumberOfLinks: 2, DeletePending: False, Directory: False"
+10:09:40.8366401 PM,helpwire.exe,11772,CloseFile,C:\Windows\WindowsShell.Manifest,SUCCESS,
+10:09:40.8368745 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows\SysWOW64\shlwapi.dll,SUCCESS,Name: \Windows\SysWOW64\shlwapi.dll
+10:09:40.8370983 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8371140 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8371373 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\OLE\Tracing,REPARSE,Desired Access: Read
+10:09:40.8371562 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Ole\Tracing,NAME NOT FOUND,Desired Access: Read
+10:09:40.8374641 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8374760 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8374982 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\OLEAUT,NAME NOT FOUND,Desired Access: Query Value
+10:09:40.8377602 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Classes,SUCCESS,"Desired Access: Maximum Allowed, Granted Access: All Access"
+10:09:40.8377827 PM,helpwire.exe,11772,RegSetInfoKey,HKCU\Software\Classes,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8378016 PM,helpwire.exe,11772,RegQueryKey,HKCU\Software\Classes,SUCCESS,Query: Name
+10:09:40.8378173 PM,helpwire.exe,11772,RegQueryKey,HKCU\Software\Classes,SUCCESS,"Query: HandleTags, HandleTags: 0x1"
+10:09:40.8378363 PM,helpwire.exe,11772,RegOpenKey,HKCR,SUCCESS,"Desired Access: Maximum Allowed, Granted Access: All Access"
+10:09:40.8378533 PM,helpwire.exe,11772,RegSetInfoKey,HKCR,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8378715 PM,helpwire.exe,11772,RegOpenKey,HKCR,SUCCESS,Desired Access: Notify
+10:09:40.8378918 PM,helpwire.exe,11772,RegQueryKeySecurity,HKCR,SUCCESS,
+10:09:40.8379125 PM,helpwire.exe,11772,RegCloseKey,HKCR,SUCCESS,
+10:09:40.8384990 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\msasn1.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8385376 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\msasn1.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:24 PM, LastAccessTime: 11/11/2025 10:09:40 PM, LastWriteTime: 10/11/2025 4:18:24 PM, ChangeTime: 10/11/2025 5:44:10 PM, FileAttributes: A"
+10:09:40.8385532 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\msasn1.dll,SUCCESS,
+10:09:40.8387496 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\msasn1.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8388118 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\msasn1.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8388563 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\msasn1.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8398352 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\msasn1.dll,SUCCESS,"Image Base: 0x74b50000, Image Size: 0xe000"
+10:09:40.8399217 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\msasn1.dll,SUCCESS,
+10:09:40.8400201 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8400306 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8400511 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\msasn1,NAME NOT FOUND,Desired Access: Read
+10:09:40.8401606 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows\SysWOW64\setupapi.dll,SUCCESS,Name: \Windows\SysWOW64\setupapi.dll
+10:09:40.8402018 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows\SysWOW64\setupapi.dll,SUCCESS,Name: \Windows\SysWOW64\setupapi.dll
+10:09:40.8403824 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows\SysWOW64\bcrypt.dll,SUCCESS,Name: \Windows\SysWOW64\bcrypt.dll
+10:09:40.8406774 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\OLEACCRC.DLL,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8410224 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\oleaccrc.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8410923 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\oleaccrc.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:25 PM, LastAccessTime: 11/11/2025 10:09:38 PM, LastWriteTime: 10/11/2025 4:18:25 PM, ChangeTime: 10/11/2025 5:44:10 PM, FileAttributes: A"
+10:09:40.8411087 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\oleaccrc.dll,SUCCESS,
+10:09:40.8412404 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\oleaccrc.dll,SUCCESS,"Desired Access: Generic Read, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8413230 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\oleaccrc.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8413385 PM,helpwire.exe,11772,QueryStandardInformationFile,C:\Windows\SysWOW64\oleaccrc.dll,SUCCESS,"AllocationSize: 8,192, EndOfFile: 4,608, NumberOfLinks: 2, DeletePending: False, Directory: False"
+10:09:40.8413627 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\oleaccrc.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8414109 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\oleaccrc.dll,SUCCESS,
+10:09:40.8419014 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8422986 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8423232 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Direct3D,SUCCESS,Desired Access: Query Value
+10:09:40.8423453 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8423664 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8423780 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8423987 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,Desired Access: Query Value
+10:09:40.8424845 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8425274 PM,helpwire.exe,11772,RegOpenKey,HKCU,SUCCESS,"Desired Access: Maximum Allowed, Granted Access: All Access"
+10:09:40.8425520 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8425612 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,Query: Name
+10:09:40.8425766 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Microsoft\Direct3D,NAME NOT FOUND,Desired Access: Query Value
+10:09:40.8425971 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8426095 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8426235 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\GraphicsDrivers\Scheduler,REPARSE,Desired Access: Query Value
+10:09:40.8426365 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\GraphicsDrivers\Scheduler,NAME NOT FOUND,Desired Access: Query Value
+10:09:40.8427376 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\helpwire.exe,SUCCESS,"Desired Access: Generic Read, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: N, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8427765 PM,helpwire.exe,11772,QueryStandardInformationFile,C:\Program Files (x86)\HelpWire\Client\helpwire.exe,SUCCESS,"AllocationSize: 14,798,848, EndOfFile: 14,798,736, NumberOfLinks: 1, DeletePending: False, Directory: False"
+10:09:40.8427914 PM,helpwire.exe,11772,CloseFile,C:\Program Files (x86)\HelpWire\Client\helpwire.exe,SUCCESS,
+10:09:40.8428349 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8428449 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,Query: Name
+10:09:40.8428674 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Microsoft\Direct3D,NAME NOT FOUND,Desired Access: Read
+10:09:40.8428906 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8428990 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8429149 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Direct3D,SUCCESS,Desired Access: Read
+10:09:40.8429303 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8429413 PM,helpwire.exe,11772,RegEnumKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D,SUCCESS,"Index: 0, Name: Drivers"
+10:09:40.8429670 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8429756 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8429911 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,Desired Access: Read
+10:09:40.8430045 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8430144 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\Size,NAME NOT FOUND,Length: 16
+10:09:40.8430246 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\Name,NAME NOT FOUND,Length: 144
+10:09:40.8430365 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,
+10:09:40.8430479 PM,helpwire.exe,11772,RegEnumKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D,SUCCESS,"Index: 1, Name: DX6TextureEnumInclusionList"
+10:09:40.8430696 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8430809 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8430980 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Direct3D\DX6TextureEnumInclusionList,SUCCESS,Desired Access: Read
+10:09:40.8431126 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\DX6TextureEnumInclusionList,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8431220 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\DX6TextureEnumInclusionList\Size,NAME NOT FOUND,Length: 16
+10:09:40.8431314 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\DX6TextureEnumInclusionList\Name,NAME NOT FOUND,Length: 144
+10:09:40.8431471 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\DX6TextureEnumInclusionList,SUCCESS,
+10:09:40.8431571 PM,helpwire.exe,11772,RegEnumKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D,NO MORE ENTRIES,"Index: 2, Length: 288"
+10:09:40.8431834 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D,SUCCESS,
+10:09:40.8432016 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8432110 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,Query: Name
+10:09:40.8432270 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Microsoft\Direct3D\Drivers,NAME NOT FOUND,Desired Access: Read
+10:09:40.8432445 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8432532 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8432686 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,Desired Access: Read
+10:09:40.8432824 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8432925 PM,helpwire.exe,11772,RegEnumKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,"Index: 0, Name: Direct3D HAL"
+10:09:40.8433091 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8433177 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8433357 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Direct3D\Drivers\Direct3D HAL,SUCCESS,Desired Access: Read
+10:09:40.8433527 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\Direct3D HAL,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8433664 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\Direct3D HAL\Size,NAME NOT FOUND,Length: 16
+10:09:40.8433826 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\Direct3D HAL\Name,NAME NOT FOUND,Length: 144
+10:09:40.8433974 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\Direct3D HAL,SUCCESS,
+10:09:40.8434113 PM,helpwire.exe,11772,RegEnumKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,"Index: 1, Name: Ramp Emulation"
+10:09:40.8434355 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8434464 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8434771 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Direct3D\Drivers\Ramp Emulation,SUCCESS,Desired Access: Read
+10:09:40.8434987 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\Ramp Emulation,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8435824 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\Ramp Emulation\Size,NAME NOT FOUND,Length: 16
+10:09:40.8435989 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\Ramp Emulation\Name,NAME NOT FOUND,Length: 144
+10:09:40.8436131 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\Ramp Emulation,SUCCESS,
+10:09:40.8436269 PM,helpwire.exe,11772,RegEnumKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,"Index: 2, Name: RGB Emulation"
+10:09:40.8436557 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8436680 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8436908 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Direct3D\Drivers\RGB Emulation,SUCCESS,Desired Access: Read
+10:09:40.8437115 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\RGB Emulation,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8437268 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\RGB Emulation\Size,NAME NOT FOUND,Length: 16
+10:09:40.8437405 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\RGB Emulation\Name,NAME NOT FOUND,Length: 144
+10:09:40.8437543 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\RGB Emulation,SUCCESS,
+10:09:40.8437677 PM,helpwire.exe,11772,RegEnumKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers,NO MORE ENTRIES,"Index: 3, Length: 288"
+10:09:40.8437879 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,
+10:09:40.8438064 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8438170 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,Query: Name
+10:09:40.8438351 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Microsoft\Direct3D,NAME NOT FOUND,Desired Access: Read
+10:09:40.8438573 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8438674 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8438871 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Direct3D,SUCCESS,Desired Access: Read
+10:09:40.8439045 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8439178 PM,helpwire.exe,11772,RegEnumKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D,SUCCESS,"Index: 0, Name: Drivers"
+10:09:40.8439414 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8439528 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8439745 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,Desired Access: Read
+10:09:40.8439955 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8440092 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\Size,NAME NOT FOUND,Length: 16
+10:09:40.8440224 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers\Name,NAME NOT FOUND,Length: 144
+10:09:40.8440370 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,
+10:09:40.8440673 PM,helpwire.exe,11772,RegEnumKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D,SUCCESS,"Index: 1, Name: DX6TextureEnumInclusionList"
+10:09:40.8441083 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8441198 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8441439 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Direct3D\DX6TextureEnumInclusionList,SUCCESS,Desired Access: Read
+10:09:40.8441664 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\DX6TextureEnumInclusionList,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8441822 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\DX6TextureEnumInclusionList\Size,NAME NOT FOUND,Length: 16
+10:09:40.8441966 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\DX6TextureEnumInclusionList\Name,NAME NOT FOUND,Length: 144
+10:09:40.8442149 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\DX6TextureEnumInclusionList,SUCCESS,
+10:09:40.8442293 PM,helpwire.exe,11772,RegEnumKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D,NO MORE ENTRIES,"Index: 2, Length: 288"
+10:09:40.8442446 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D,SUCCESS,
+10:09:40.8442650 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8442765 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,Query: Name
+10:09:40.8442969 PM,helpwire.exe,11772,RegOpenKey,HKCU\System\CurrentControlSet\Control\GraphicsDrivers\Scheduler,NAME NOT FOUND,Desired Access: Read
+10:09:40.8443223 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8443336 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8443501 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\GraphicsDrivers\Scheduler,REPARSE,Desired Access: Read
+10:09:40.8443828 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\GraphicsDrivers\Scheduler,NAME NOT FOUND,Desired Access: Read
+10:09:40.8445420 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8445537 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8445747 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Direct2D,NAME NOT FOUND,Desired Access: Query Value
+10:09:40.8446003 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8446111 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,Query: Name
+10:09:40.8446290 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Microsoft\Direct3D\Direct2D,NAME NOT FOUND,Desired Access: Query Value
+10:09:40.8448661 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\UMPDC.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8452210 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\umpdc.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8452644 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\umpdc.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:26 PM, LastAccessTime: 11/11/2025 10:09:39 PM, LastWriteTime: 10/11/2025 4:18:26 PM, ChangeTime: 11/9/2025 4:07:29 PM, FileAttributes: A"
+10:09:40.8452799 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\umpdc.dll,SUCCESS,
+10:09:40.8455004 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\umpdc.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8455562 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\umpdc.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8456035 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\umpdc.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8462841 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\umpdc.dll,SUCCESS,"Image Base: 0x737b0000, Image Size: 0xe000"
+10:09:40.8466691 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\umpdc.dll,SUCCESS,
+10:09:40.8472890 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Session Manager,REPARSE,Desired Access: Query Value
+10:09:40.8473075 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Session Manager,SUCCESS,Desired Access: Query Value
+10:09:40.8473239 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Control\Session Manager,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8473353 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Session Manager\SmtDelaySleepLoopWindowSize,NAME NOT FOUND,Length: 80
+10:09:40.8473482 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Session Manager\SmtDelaySpinCountThreshold,NAME NOT FOUND,Length: 80
+10:09:40.8473589 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Session Manager\SmtDelayBaseYield,NAME NOT FOUND,Length: 80
+10:09:40.8473696 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Session Manager\SmtFactorYield,NAME NOT FOUND,Length: 80
+10:09:40.8473799 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Session Manager\SmtDelayMaxYield,NAME NOT FOUND,Length: 80
+10:09:40.8473920 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\Session Manager,SUCCESS,
+10:09:40.8480362 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Program Files (x86)\HelpWire\Client\helpwire.exe,SUCCESS,Name: \Program Files (x86)\HelpWire\Client\helpwire.exe
+10:09:40.8485326 PM,helpwire.exe,11772,RegOpenKey,HKCU,SUCCESS,Desired Access: Read
+10:09:40.8486092 PM,helpwire.exe,11772,RegCloseKey,HKCU,SUCCESS,
+10:09:40.8486474 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Microsoft\Windows NT\CurrentVersion\Windows,SUCCESS,Desired Access: Read
+10:09:40.8486695 PM,helpwire.exe,11772,RegSetInfoKey,HKCU\Software\Microsoft\Windows NT\CurrentVersion\Windows,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8487095 PM,helpwire.exe,11772,RegQueryValue,HKCU\Software\Microsoft\Windows NT\CurrentVersion\Windows\DragMinDist,NAME NOT FOUND,Length: 16
+10:09:40.8487256 PM,helpwire.exe,11772,RegCloseKey,HKCU\Software\Microsoft\Windows NT\CurrentVersion\Windows,SUCCESS,
+10:09:40.8487518 PM,helpwire.exe,11772,RegOpenKey,HKCU,SUCCESS,Desired Access: Read
+10:09:40.8487684 PM,helpwire.exe,11772,RegCloseKey,HKCU,SUCCESS,
+10:09:40.8487856 PM,helpwire.exe,11772,RegOpenKey,HKCU\Software\Microsoft\Windows NT\CurrentVersion\Windows,SUCCESS,Desired Access: Read
+10:09:40.8488008 PM,helpwire.exe,11772,RegSetInfoKey,HKCU\Software\Microsoft\Windows NT\CurrentVersion\Windows,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8488114 PM,helpwire.exe,11772,RegQueryValue,HKCU\Software\Microsoft\Windows NT\CurrentVersion\Windows\DragDelay,NAME NOT FOUND,Length: 16
+10:09:40.8488231 PM,helpwire.exe,11772,RegCloseKey,HKCU\Software\Microsoft\Windows NT\CurrentVersion\Windows,SUCCESS,
+10:09:40.8492363 PM,helpwire.exe,11772,RegOpenKey,HKCU,SUCCESS,Desired Access: Read
+10:09:40.8492718 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8492875 PM,helpwire.exe,11772,RegQueryKey,HKCU,SUCCESS,Query: Name
+10:09:40.8493135 PM,helpwire.exe,11772,RegOpenKey,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize,SUCCESS,Desired Access: Query Value
+10:09:40.8493379 PM,helpwire.exe,11772,RegSetInfoKey,HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8493541 PM,helpwire.exe,11772,RegQueryValue,HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize\AppsUseLightTheme,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 1"
+10:09:40.8493733 PM,helpwire.exe,11772,RegCloseKey,HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize,SUCCESS,
+10:09:40.8493936 PM,helpwire.exe,11772,RegCloseKey,HKCU,SUCCESS,
+10:09:40.8511335 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8511471 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8511689 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters,REPARSE,Desired Access: All Access
+10:09:40.8511934 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters,SUCCESS,Desired Access: All Access
+10:09:40.8512145 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8512286 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\WinSock_Registry_Version,BUFFER OVERFLOW,Length: 16
+10:09:40.8512429 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\WinSock_Registry_Version,SUCCESS,"Type: REG_SZ, Length: 8, Data: 2.0"
+10:09:40.8512637 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8512758 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\AppId_Catalog,SUCCESS,Desired Access: Read
+10:09:40.8513220 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\AppId_Catalog,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8513334 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\AppId_Catalog\2B88276C-381B90CC,NAME NOT FOUND,Desired Access: Read
+10:09:40.8513507 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\AppId_Catalog,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8513634 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\AppId_Catalog\2B88276C,NAME NOT FOUND,Desired Access: Read
+10:09:40.8513796 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\AppId_Catalog,SUCCESS,
+10:09:40.8513965 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Callout,BUFFER OVERFLOW,Length: 12
+10:09:40.8514156 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Callout,SUCCESS,"Type: REG_EXPAND_SZ, Length: 70, Data: %SystemRoot%\System32\fwpuclnt.dll"
+10:09:40.8514409 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8514548 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9,SUCCESS,"Desired Access: Maximum Allowed, Granted Access: All Access"
+10:09:40.8514757 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Serial_Access_Num,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 11"
+10:09:40.8515360 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Serial_Access_Num,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 11"
+10:09:40.8515633 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8515762 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\0000000B,NAME NOT FOUND,Desired Access: Read
+10:09:40.8515933 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Next_Catalog_Entry_ID,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 1015"
+10:09:40.8516095 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Num_Catalog_Entries,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 14"
+10:09:40.8516277 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8516410 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Desired Access: Maximum Allowed, Granted Access: All Access"
+10:09:40.8517652 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8517796 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000001,SUCCESS,Desired Access: Read
+10:09:40.8518038 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000001\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8518192 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000001\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8518363 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000001,SUCCESS,
+10:09:40.8518576 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8518708 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000002,SUCCESS,Desired Access: Read
+10:09:40.8518961 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000002\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8519259 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000002\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8519558 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000002,SUCCESS,
+10:09:40.8519827 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8519987 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000003,SUCCESS,Desired Access: Read
+10:09:40.8520228 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000003\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8520363 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000003\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8520537 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000003,SUCCESS,
+10:09:40.8520762 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8520901 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000004,SUCCESS,Desired Access: Read
+10:09:40.8521129 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000004\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8521262 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000004\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8521430 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000004,SUCCESS,
+10:09:40.8521648 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8521783 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000005,SUCCESS,Desired Access: Read
+10:09:40.8522021 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000005\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8522225 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000005\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8522412 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000005,SUCCESS,
+10:09:40.8522620 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8522775 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000006,SUCCESS,Desired Access: Read
+10:09:40.8522997 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000006\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8523142 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000006\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8523440 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000006,SUCCESS,
+10:09:40.8523688 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8523815 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000007,SUCCESS,Desired Access: Read
+10:09:40.8524022 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000007\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8524156 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000007\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8524316 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000007,SUCCESS,
+10:09:40.8524511 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8524637 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000008,SUCCESS,Desired Access: Read
+10:09:40.8524833 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000008\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8525005 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000008\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8525157 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000008,SUCCESS,
+10:09:40.8525345 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8525485 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000009,SUCCESS,Desired Access: Read
+10:09:40.8525707 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000009\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8525842 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000009\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8526015 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000009,SUCCESS,
+10:09:40.8526242 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8526381 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000010,SUCCESS,Desired Access: Read
+10:09:40.8526587 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000010\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8526726 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000010\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8526896 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000010,SUCCESS,
+10:09:40.8527104 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8527240 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000011,SUCCESS,Desired Access: Read
+10:09:40.8527453 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000011\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8527586 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000011\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8527749 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000011,SUCCESS,
+10:09:40.8528091 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8528216 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000012,SUCCESS,Desired Access: Read
+10:09:40.8528417 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000012\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8528615 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000012\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8528795 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000012,SUCCESS,
+10:09:40.8529020 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8529153 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000013,SUCCESS,Desired Access: Read
+10:09:40.8529534 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000013\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8529760 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000013\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8530022 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000013,SUCCESS,
+10:09:40.8530381 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8530542 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000014,SUCCESS,Desired Access: Read
+10:09:40.8530794 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000014\PackedCatalogItem,BUFFER OVERFLOW,Length: 144
+10:09:40.8530945 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000014\PackedCatalogItem,SUCCESS,"Type: REG_BINARY, Length: 888, Data: 25 53 79 73 74 65 6D 52 6F 6F 74 25 5C 73 79 73"
+10:09:40.8531108 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000014,SUCCESS,
+10:09:40.8531235 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries,SUCCESS,
+10:09:40.8531666 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8531803 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5,SUCCESS,"Desired Access: Maximum Allowed, Granted Access: All Access"
+10:09:40.8532000 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Serial_Access_Num,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 18"
+10:09:40.8532382 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Serial_Access_Num,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 18"
+10:09:40.8532606 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8532748 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\00000012,NAME NOT FOUND,Desired Access: Read
+10:09:40.8532907 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Num_Catalog_Entries,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 5"
+10:09:40.8533243 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8533464 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries,SUCCESS,"Desired Access: Maximum Allowed, Granted Access: All Access"
+10:09:40.8533794 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8533943 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001,SUCCESS,Desired Access: Read
+10:09:40.8534166 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\LibraryPath,SUCCESS,"Type: REG_SZ, Length: 68, Data: %SystemRoot%\system32\napinsp.dll"
+10:09:40.8534341 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\LibraryPath,SUCCESS,"Type: REG_SZ, Length: 68, Data: %SystemRoot%\system32\napinsp.dll"
+10:09:40.8534496 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\DisplayString,BUFFER OVERFLOW,Length: 12
+10:09:40.8534637 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\DisplayString,SUCCESS,"Type: REG_SZ, Length: 82, Data: @%SystemRoot%\system32\napinsp.dll,-1000"
+10:09:40.8534808 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\DisplayString,SUCCESS,"Type: REG_SZ, Length: 82, Data: @%SystemRoot%\system32\napinsp.dll,-1000"
+10:09:40.8534952 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\DisplayString,SUCCESS,"Type: REG_SZ, Length: 82, Data: @%SystemRoot%\system32\napinsp.dll,-1000"
+10:09:40.8535111 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\ProviderId,SUCCESS,"Type: REG_BINARY, Length: 16, Data: A2 CB 4A 96 BC B2 EB 40 8C 6A A6 DB 40 16 1C AE"
+10:09:40.8535262 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\AddressFamily,NAME NOT FOUND,Length: 16
+10:09:40.8535424 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\SupportedNameSpace,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 37"
+10:09:40.8535574 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\Enabled,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 1"
+10:09:40.8535712 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\Version,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 0"
+10:09:40.8535831 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\StoresServiceClassInfo,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 0"
+10:09:40.8536042 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\ProviderInfo,SUCCESS,"Type: REG_BINARY, Length: 0"
+10:09:40.8536220 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001\ProviderInfo,SUCCESS,"Type: REG_BINARY, Length: 0"
+10:09:40.8536370 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001,SUCCESS,
+10:09:40.8536664 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8536748 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002,SUCCESS,Desired Access: Read
+10:09:40.8536887 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\LibraryPath,SUCCESS,"Type: REG_SZ, Length: 68, Data: %SystemRoot%\System32\mswsock.dll"
+10:09:40.8536968 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\LibraryPath,SUCCESS,"Type: REG_SZ, Length: 68, Data: %SystemRoot%\System32\mswsock.dll"
+10:09:40.8537051 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\DisplayString,BUFFER OVERFLOW,Length: 12
+10:09:40.8537123 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\DisplayString,SUCCESS,"Type: REG_SZ, Length: 86, Data: @%SystemRoot%\system32\wshtcpip.dll,-60103"
+10:09:40.8537250 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\DisplayString,SUCCESS,"Type: REG_SZ, Length: 86, Data: @%SystemRoot%\system32\wshtcpip.dll,-60103"
+10:09:40.8537377 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\DisplayString,SUCCESS,"Type: REG_SZ, Length: 86, Data: @%SystemRoot%\system32\wshtcpip.dll,-60103"
+10:09:40.8537492 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\ProviderId,SUCCESS,"Type: REG_BINARY, Length: 16, Data: 40 9D 05 22 9E 7E CF 11 AE 5A 00 AA 00 A7 11 2B"
+10:09:40.8537568 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\AddressFamily,NAME NOT FOUND,Length: 16
+10:09:40.8537643 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\SupportedNameSpace,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 12"
+10:09:40.8537714 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\Enabled,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 1"
+10:09:40.8537779 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\Version,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 0"
+10:09:40.8537848 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\StoresServiceClassInfo,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 0"
+10:09:40.8537918 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\ProviderInfo,SUCCESS,"Type: REG_BINARY, Length: 0"
+10:09:40.8537989 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002\ProviderInfo,SUCCESS,"Type: REG_BINARY, Length: 0"
+10:09:40.8538070 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002,SUCCESS,
+10:09:40.8538191 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8538263 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003,SUCCESS,Desired Access: Read
+10:09:40.8538375 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\LibraryPath,SUCCESS,"Type: REG_SZ, Length: 66, Data: %SystemRoot%\System32\winrnr.dll"
+10:09:40.8538448 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\LibraryPath,SUCCESS,"Type: REG_SZ, Length: 66, Data: %SystemRoot%\System32\winrnr.dll"
+10:09:40.8538526 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\DisplayString,BUFFER OVERFLOW,Length: 12
+10:09:40.8538594 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\DisplayString,SUCCESS,"Type: REG_SZ, Length: 80, Data: @%SystemRoot%\System32\winrnr.dll,-1000"
+10:09:40.8538674 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\DisplayString,SUCCESS,"Type: REG_SZ, Length: 80, Data: @%SystemRoot%\System32\winrnr.dll,-1000"
+10:09:40.8538746 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\DisplayString,SUCCESS,"Type: REG_SZ, Length: 80, Data: @%SystemRoot%\System32\winrnr.dll,-1000"
+10:09:40.8538818 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\ProviderId,SUCCESS,"Type: REG_BINARY, Length: 16, Data: EE 37 26 3B 80 E5 CF 11 A5 55 00 C0 4F D8 D4 AC"
+10:09:40.8538892 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\AddressFamily,NAME NOT FOUND,Length: 16
+10:09:40.8538966 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\SupportedNameSpace,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 32"
+10:09:40.8539035 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\Enabled,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 1"
+10:09:40.8539102 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\Version,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 0"
+10:09:40.8539169 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\StoresServiceClassInfo,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 0"
+10:09:40.8539238 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\ProviderInfo,SUCCESS,"Type: REG_BINARY, Length: 0"
+10:09:40.8539311 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003\ProviderInfo,SUCCESS,"Type: REG_BINARY, Length: 0"
+10:09:40.8539385 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003,SUCCESS,
+10:09:40.8539493 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8539560 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004,SUCCESS,Desired Access: Read
+10:09:40.8539655 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\LibraryPath,SUCCESS,"Type: REG_SZ, Length: 70, Data: %SystemRoot%\system32\nlansp_c.dll"
+10:09:40.8539727 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\LibraryPath,SUCCESS,"Type: REG_SZ, Length: 70, Data: %SystemRoot%\system32\nlansp_c.dll"
+10:09:40.8539805 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\DisplayString,BUFFER OVERFLOW,Length: 12
+10:09:40.8539871 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\DisplayString,SUCCESS,"Type: REG_SZ, Length: 80, Data: @%SystemRoot%\system32\nlasvc.dll,-1000"
+10:09:40.8539949 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\DisplayString,SUCCESS,"Type: REG_SZ, Length: 80, Data: @%SystemRoot%\system32\nlasvc.dll,-1000"
+10:09:40.8540016 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\DisplayString,SUCCESS,"Type: REG_SZ, Length: 80, Data: @%SystemRoot%\system32\nlasvc.dll,-1000"
+10:09:40.8540086 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\ProviderId,SUCCESS,"Type: REG_BINARY, Length: 16, Data: 3A 24 42 66 A8 3B A6 4A BA A5 2E 0B D7 1F DD 83"
+10:09:40.8540155 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\AddressFamily,NAME NOT FOUND,Length: 16
+10:09:40.8540363 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\SupportedNameSpace,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 15"
+10:09:40.8540520 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\Enabled,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 1"
+10:09:40.8540660 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\Version,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 0"
+10:09:40.8540798 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\StoresServiceClassInfo,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 0"
+10:09:40.8540946 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\ProviderInfo,SUCCESS,"Type: REG_BINARY, Length: 0"
+10:09:40.8541102 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004\ProviderInfo,SUCCESS,"Type: REG_BINARY, Length: 0"
+10:09:40.8541252 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000004,SUCCESS,
+10:09:40.8541462 PM,helpwire.exe,11772,RegQueryKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8541599 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005,SUCCESS,Desired Access: Read
+10:09:40.8541800 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\LibraryPath,SUCCESS,"Type: REG_SZ, Length: 66, Data: %SystemRoot%\system32\wshbth.dll"
+10:09:40.8541889 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\LibraryPath,SUCCESS,"Type: REG_SZ, Length: 66, Data: %SystemRoot%\system32\wshbth.dll"
+10:09:40.8542141 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\DisplayString,BUFFER OVERFLOW,Length: 12
+10:09:40.8542284 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\DisplayString,SUCCESS,"Type: REG_SZ, Length: 40, Data: Bluetooth Namespace"
+10:09:40.8542394 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\DisplayString,SUCCESS,"Type: REG_SZ, Length: 40, Data: Bluetooth Namespace"
+10:09:40.8542468 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\DisplayString,SUCCESS,"Type: REG_SZ, Length: 40, Data: Bluetooth Namespace"
+10:09:40.8542541 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\ProviderId,SUCCESS,"Type: REG_BINARY, Length: 16, Data: E0 63 AA 06 60 7D FF 41 AF B2 3E E6 D2 D9 39 2D"
+10:09:40.8542613 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\AddressFamily,NAME NOT FOUND,Length: 16
+10:09:40.8542690 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\SupportedNameSpace,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 16"
+10:09:40.8542760 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\Enabled,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 1"
+10:09:40.8542830 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\Version,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 0"
+10:09:40.8543034 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\StoresServiceClassInfo,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 0"
+10:09:40.8543161 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\ProviderInfo,SUCCESS,"Type: REG_BINARY, Length: 0"
+10:09:40.8543293 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005\ProviderInfo,SUCCESS,"Type: REG_BINARY, Length: 0"
+10:09:40.8543449 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000005,SUCCESS,
+10:09:40.8543580 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries,SUCCESS,
+10:09:40.8543700 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters,SUCCESS,
+10:09:40.8544165 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8544296 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8544490 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\Winsock2\Parameters,REPARSE,Desired Access: Query Value
+10:09:40.8544667 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\Winsock2\Parameters,SUCCESS,Desired Access: Query Value
+10:09:40.8544803 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8544921 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Ws2_32NumHandleBuckets,NAME NOT FOUND,Length: 16
+10:09:40.8545156 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Ws2_32SpinCount,NAME NOT FOUND,Length: 16
+10:09:40.8545318 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters,SUCCESS,
+10:09:40.8548403 PM,helpwire.exe,11772,CreateFile,C:\Program Files (x86)\HelpWire\Client\Windows.Storage.dll,NAME NOT FOUND,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a"
+10:09:40.8550817 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\windows.storage.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8551049 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\windows.storage.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:26 PM, LastAccessTime: 11/11/2025 10:09:39 PM, LastWriteTime: 10/11/2025 4:18:26 PM, ChangeTime: 10/11/2025 5:44:10 PM, FileAttributes: A"
+10:09:40.8551192 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\windows.storage.dll,SUCCESS,
+10:09:40.8552735 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\windows.storage.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8553149 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\windows.storage.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8553340 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\windows.storage.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8561296 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\windows.storage.dll,SUCCESS,"Image Base: 0x75000000, Image Size: 0x6dc000"
+10:09:40.8563293 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\windows.storage.dll,SUCCESS,
+10:09:40.8568852 PM,helpwire.exe,11772,QueryNameInformationFile,C:\Windows\SysWOW64\windows.storage.dll,SUCCESS,Name: \Windows\SysWOW64\windows.storage.dll
+10:09:40.8573282 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Nls\CustomLocale,REPARSE,Desired Access: Read
+10:09:40.8573494 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Nls\CustomLocale,SUCCESS,Desired Access: Read
+10:09:40.8573713 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Control\Nls\CustomLocale,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8573839 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Nls\CustomLocale\en-US,NAME NOT FOUND,Length: 532
+10:09:40.8573981 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\Nls\CustomLocale,SUCCESS,
+10:09:40.8574264 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale,REPARSE,Desired Access: Read
+10:09:40.8574432 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale,SUCCESS,Desired Access: Read
+10:09:40.8574605 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8574720 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale\en-US,NAME NOT FOUND,Length: 532
+10:09:40.8574856 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\Nls\ExtendedLocale,SUCCESS,
+10:09:40.8581131 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8581266 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8581484 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Rpc,REPARSE,Desired Access: Read
+10:09:40.8581684 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Rpc,SUCCESS,Desired Access: Read
+10:09:40.8581873 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\Microsoft\Rpc,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8582065 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\Microsoft\Rpc\MaxRpcSize,NAME NOT FOUND,Length: 16
+10:09:40.8582232 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\Microsoft\Rpc,SUCCESS,
+10:09:40.8582649 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\CCG,REPARSE,Desired Access: Read
+10:09:40.8582762 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\CCG,NAME NOT FOUND,Desired Access: Read
+10:09:40.8582926 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\CCG,REPARSE,Desired Access: Read
+10:09:40.8583012 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\CCG,NAME NOT FOUND,Desired Access: Read
+10:09:40.8583121 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName,REPARSE,Desired Access: Read
+10:09:40.8583197 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName,SUCCESS,Desired Access: Read
+10:09:40.8583312 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8583509 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName\ComputerName,SUCCESS,"Type: REG_SZ, Length: 32, Data: SMASHTITLE-SAND"
+10:09:40.8583686 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName,SUCCESS,
+10:09:40.8583876 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\Setup,SUCCESS,Desired Access: Read
+10:09:40.8584046 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SYSTEM\Setup,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8584286 PM,helpwire.exe,11772,RegQueryValue,HKLM\SYSTEM\Setup\OOBEInProgress,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 0"
+10:09:40.8584430 PM,helpwire.exe,11772,RegCloseKey,HKLM\SYSTEM\Setup,SUCCESS,
+10:09:40.8584541 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\Setup,SUCCESS,Desired Access: Read
+10:09:40.8584629 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SYSTEM\Setup,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8584691 PM,helpwire.exe,11772,RegQueryValue,HKLM\SYSTEM\Setup\SystemSetupInProgress,SUCCESS,"Type: REG_DWORD, Length: 4, Data: 0"
+10:09:40.8584876 PM,helpwire.exe,11772,RegCloseKey,HKLM\SYSTEM\Setup,SUCCESS,
+10:09:40.8585025 PM,helpwire.exe,11772,RegQueryKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options,SUCCESS,"Query: HandleTags, HandleTags: 0x400"
+10:09:40.8585104 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\helpwire.exe,NAME NOT FOUND,"Desired Access: Query Value, Enumerate Sub Keys"
+10:09:40.8585665 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8585725 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8585849 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Policies\Microsoft\Windows NT\Rpc,REPARSE,Desired Access: Read
+10:09:40.8585945 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Rpc,NAME NOT FOUND,Desired Access: Read
+10:09:40.8586472 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,"Query: HandleTags, HandleTags: 0x0"
+10:09:40.8586533 PM,helpwire.exe,11772,RegQueryKey,HKLM,SUCCESS,Query: Name
+10:09:40.8586736 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Rpc,REPARSE,Desired Access: Query Value
+10:09:40.8586901 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Rpc,SUCCESS,Desired Access: Query Value
+10:09:40.8587064 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\Microsoft\Rpc,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8587189 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\Microsoft\Rpc\IdleTimerWindow,NAME NOT FOUND,Length: 16
+10:09:40.8587352 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\Microsoft\Rpc,SUCCESS,
+10:09:40.8616677 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9,SUCCESS,
+10:09:40.8622639 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5,SUCCESS,
+10:09:40.8628860 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\kernel.appcore.dll,SUCCESS,"Desired Access: Read Attributes, Disposition: Open, Options: Open For Backup, Open Reparse Point, Attributes: n/a, ShareMode: Read, Write, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8629168 PM,helpwire.exe,11772,QueryBasicInformationFile,C:\Windows\SysWOW64\kernel.appcore.dll,SUCCESS,"CreationTime: 10/11/2025 4:18:20 PM, LastAccessTime: 11/11/2025 10:09:40 PM, LastWriteTime: 10/11/2025 4:18:20 PM, ChangeTime: 10/11/2025 5:44:10 PM, FileAttributes: A"
+10:09:40.8629302 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\kernel.appcore.dll,SUCCESS,
+10:09:40.8630526 PM,helpwire.exe,11772,CreateFile,C:\Windows\SysWOW64\kernel.appcore.dll,SUCCESS,"Desired Access: Read Data/List Directory, Execute/Traverse, Synchronize, Disposition: Open, Options: Synchronous IO Non-Alert, Non-Directory File, Attributes: n/a, ShareMode: Read, Delete, AllocationSize: n/a, OpenResult: Opened"
+10:09:40.8630934 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\kernel.appcore.dll,FILE LOCKED WITH ONLY READERS,"SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE"
+10:09:40.8631209 PM,helpwire.exe,11772,CreateFileMapping,C:\Windows\SysWOW64\kernel.appcore.dll,SUCCESS,SyncType: SyncTypeOther
+10:09:40.8639675 PM,helpwire.exe,11772,Load Image,C:\Windows\SysWOW64\kernel.appcore.dll,SUCCESS,"Image Base: 0x74b30000, Image Size: 0x15000"
+10:09:40.8641749 PM,helpwire.exe,11772,CloseFile,C:\Windows\SysWOW64\kernel.appcore.dll,SUCCESS,
+10:09:40.8643060 PM,helpwire.exe,11772,Thread Exit,,SUCCESS,"Thread ID: 500, User Time: 0.0000000, Kernel Time: 0.0156250"
+10:09:40.8643507 PM,helpwire.exe,11772,Thread Exit,,SUCCESS,"Thread ID: 8116, User Time: 0.0000000, Kernel Time: 0.0312500"
+10:09:40.8643876 PM,helpwire.exe,11772,Thread Exit,,SUCCESS,"Thread ID: 7532, User Time: 0.0000000, Kernel Time: 0.0156250"
+10:09:40.8646204 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D,SUCCESS,
+10:09:40.8646370 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\WOW6432Node\Microsoft\Direct3D\Drivers,SUCCESS,
+10:09:40.8652629 PM,helpwire.exe,11772,RegCloseKey,HKCU\Software\Classes\Local Settings\Software\Microsoft,SUCCESS,
+10:09:40.8652747 PM,helpwire.exe,11772,RegCloseKey,HKCU\Software\Classes\Local Settings,SUCCESS,
+10:09:40.8652857 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\Microsoft\Ole,SUCCESS,
+10:09:40.8652924 PM,helpwire.exe,11772,RegCloseKey,HKLM,SUCCESS,
+10:09:40.8653544 PM,helpwire.exe,11772,RegOpenKey,HKLM\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\GRE_Initialize,REPARSE,Desired Access: Read
+10:09:40.8653681 PM,helpwire.exe,11772,RegOpenKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\GRE_Initialize,SUCCESS,Desired Access: Read
+10:09:40.8653797 PM,helpwire.exe,11772,RegSetInfoKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\GRE_Initialize,SUCCESS,"KeySetInformationClass: KeySetHandleTagsInformation, Length: 0"
+10:09:40.8653878 PM,helpwire.exe,11772,RegQueryValue,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\GRE_Initialize\DisableMetaFiles,NAME NOT FOUND,Length: 20
+10:09:40.8653966 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\GRE_Initialize,SUCCESS,
+10:09:40.8656070 PM,helpwire.exe,11772,Thread Exit,,SUCCESS,"Thread ID: 13852, User Time: 0.0000000, Kernel Time: 0.0312500"
+10:09:40.8676582 PM,helpwire.exe,11772,Process Exit,,SUCCESS,"Exit Status: -1, User Time: 0.0000000 seconds, Kernel Time: 0.0937500 seconds, Private Bytes: 2,805,760, Peak Private Bytes: 3,051,520, Working Set: 14,639,104, Peak Working Set: 14,639,104"
+10:09:40.8676915 PM,helpwire.exe,11772,RegOpenKey,HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-1565251941-2530725656-27758556-500,SUCCESS,Desired Access: All Access
+10:09:40.8677069 PM,helpwire.exe,11772,RegQueryValue,HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-1565251941-2530725656-27758556-500\\Device\HarddiskVolume4\Program Files (x86)\HelpWire\Client\helpwire.exe,NAME NOT FOUND,Length: 40
+10:09:40.8677303 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-1565251941-2530725656-27758556-500,SUCCESS,
+10:09:40.8677996 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options,SUCCESS,
+10:09:40.8678274 PM,helpwire.exe,11772,CloseFile,C:\Windows,SUCCESS,
+10:09:40.8678594 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\Session Manager,SUCCESS,
+10:09:40.8678880 PM,helpwire.exe,11772,CloseFile,C:\Users\azureadmin\Downloads,SUCCESS,
+10:09:40.8680050 PM,helpwire.exe,11772,CloseFile,C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.6899_none_85bc35c1f7aab1c7,SUCCESS,
+10:09:40.8680371 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\Nls\CustomLocale,SUCCESS,
+10:09:40.8680502 PM,helpwire.exe,11772,CloseFile,C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.6725_none_b6a081e55243135f,SUCCESS,
+10:09:40.8680767 PM,helpwire.exe,11772,CloseFile,C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.26100.6725_none_b6a081e55243135f,SUCCESS,
+10:09:40.8680987 PM,helpwire.exe,11772,RegCloseKey,HKLM\System\CurrentControlSet\Control\Nls\Sorting\Versions,SUCCESS,
+10:09:40.8681089 PM,helpwire.exe,11772,RegCloseKey,HKLM,SUCCESS,
+10:09:40.8681156 PM,helpwire.exe,11772,RegCloseKey,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options,SUCCESS,
+10:09:40.8681372 PM,helpwire.exe,11772,RegCloseKey,HKCU\Software\Classes,SUCCESS,
+10:09:40.8681522 PM,helpwire.exe,11772,RegCloseKey,HKCU,SUCCESS,
+10:09:40.8746609 PM,helpwire.exe,13324,Process Start,,SUCCESS,"Parent PID: 4592, Command line: ""C:\Program Files (x86)\HelpWire\Client\helpwire.exe"" /service enable, Current directory: C:\Users\azureadmin\Downloads\, Environment: ;	=::=::\;	ALLUSERSPROFILE=C:\ProgramData;	APPDATA=C:\Users\azureadmin\AppData\Roaming;	CLIENTNAME=MacBook-Air;	CommonProgramFiles=C:\Program Files (x86)\Common Files;	CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files;	CommonProgramW6432=C:\Program Files\Common Files;	COMPUTERNAME=SMASHTITLE-SAND;	ComSpec=C:\Windows\system32\cmd.exe;	DriverData=C:\Windows\System32\Drivers\DriverData;	EFC_8136_1262719628=1;	EFC_8136_1592913036=1;	EFC_8136_2283032206=1;	EFC_8136_2775293581=1;	EFC_8136_3789132940=1;	FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer;	FPS_BROWSER_USER_PROFILE_STRING=Default;	HOMEDRIVE=C:;	HOMEPATH=\Users\azureadmin;	LOCALAPPDATA=C:\Users\azureadmin\AppData\Local;	LOGONSERVER=\\SMASHTITLE-SAND;	NUMBER_OF_PROCESSORS=4;	OneDrive=C:\Users\azureadmin\OneDrive;	OS=Windows_NT;	Path=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Tailscale\;C:\Users\azureadmin\AppData\Local\Microsoft\WindowsApps;;	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;	PROCESSOR_ARCHITECTURE=x86;	PROCESSOR_ARCHITEW6432=AMD64;	PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD;	PROCESSOR_LEVEL=25;	PROCESSOR_REVISION=0101;	ProgramData=C:\ProgramData;	ProgramFiles=C:\Program Files (x86);	ProgramFiles(x86)=C:\Program Files (x86);	ProgramW6432=C:\Program Files;	PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;	PUBLIC=C:\Users\Public;	SESSIONNAME=RDP-Tcp#0;	SystemDrive=C:;	SystemRoot=C:\Windows;	TEMP=C:\Users\AZUREA~1\AppData\Local\Temp;	TMP=C:\Users\AZUREA~1\AppData\Local\Temp;	USERDOMAIN=SMASHTITLE-SAND;	USERDOMAIN_ROAMINGPROFILE=SMASHTITLE-SAND;	USERNAME=azureadmin;	USERPROFILE=C:\Users\azureadmin;	windir=C:\Windows"
