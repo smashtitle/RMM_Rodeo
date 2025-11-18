@@ -1,0 +1,41 @@
+title: HelpWire Process Execution Detection
+id: d7296c6b-00e0-43d5-a1a8-93afa51c3d38
+status: experimental
+description: Detects process execution patterns associated with the HelpWire remote access tool
+references:
+    - https://github.com/smashtitle/RMM_Rodeo
+author: smashtitle
+date: 2025-11-18
+tags:
+    - attack.command_and_control
+    - attack.t1219
+    - attack.defense_evasion
+    - attack.t1562.004
+logsource:
+    category: process_creation
+    product: windows
+detection:
+    selection_urlparam:
+        CommandLine|contains|all:
+            - 'urlparam'
+            - 'helpwire://?token='
+    selection_netsh:
+        CommandLine|contains|all:
+            - 'netsh.exe'
+        CommandLine|contains:
+            - 'HelpWire Client'
+            - 'HelpWire Unattended Access'
+            - 'helpwire.exe'
+    selection_rdc:
+        CommandLine|contains: '/rdc --peer 127.0.0.1'
+    condition: 1 of selection_*
+falsepositives:
+    - Legitimate use of HelpWire RMM tool for authorized remote support
+level: medium
+fields:
+    - EventStartTime
+    - Computer
+    - User
+    - ParentImage
+    - CommandLine
+    - Image
