@@ -1,0 +1,37 @@
+title: HelpWire Registry Modification Detection
+id: f593d4e1-4ba9-4d18-aeb0-4deedf82099f
+status: experimental
+description: Detects registry modifications associated with HelpWire remote access tool installation and persistence mechanisms
+references:
+    - https://github.com/smashtitle/RMM_Rodeo
+author: smashtitle
+date: 2025-11-18
+tags:
+    - attack.persistence
+    - attack.t1547.001
+    - attack.command_and_control
+    - attack.t1219
+logsource:
+    category: registry_set
+    product: windows
+detection:
+    selection_helpwire_client:
+        TargetObject|contains|all:
+            - 'HelpWire'
+            - 'Client'
+        TargetObject|contains: 'helpwire.exe'
+    selection_runonce:
+        TargetObject|contains: 'Software\Microsoft\Windows\CurrentVersion\RunOnce'
+        TargetObject|contains: 'Electronic.HelpWire2.Chat-Client'
+    condition: 1 of selection_*
+falsepositives:
+    - Legitimate installation of HelpWire RMM tool for authorized remote support
+level: medium
+fields:
+    - EventStartTime
+    - Computer
+    - TargetObject
+    - Details
+    - User
+    - Image
+    - ProcessId
