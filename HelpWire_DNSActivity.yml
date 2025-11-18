@@ -1,0 +1,31 @@
+title: HelpWire DNS Query Detection
+id: 91d6da6f-ed35-4d0e-bf09-7957669a940e
+status: experimental
+description: Detects DNS queries to stun.helpwire.app, which indicates HelpWire remote access tool activity
+references:
+    - https://github.com/smashtitle/RMM_Rodeo
+author: smashtitle
+date: 2025-11-18
+tags:
+    - attack.command_and_control
+    - attack.t1219
+logsource:
+    category: dns
+    product: windows
+detection:
+    selection:
+        EventType: 'Query'
+        query: 'stun.helpwire.app'
+    condition: selection
+falsepositives:
+    - Legitimate use of HelpWire RMM tool for authorized remote support
+level: medium
+fields:
+    - EventStartTime
+    - src_hostname
+    - User
+    - src_process_id
+    - src_process_name
+    - query
+    - answer
+    - response_code
