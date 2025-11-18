@@ -37,7 +37,7 @@ let ProcessActivity = _ASim_ProcessEvent
     | where EventType == "ProcessCreated"
     | where CommandLine has_all ("urlparam", "helpwire://?token=")
         or (CommandLine contains "netsh.exe" and CommandLine has_any ("HelpWire Client", "HelpWire Unattended Access", "helpwire.exe"))
-        or (CommandLine contains "helpwire.exe" and CommandLine has_all ("/rdc", "--peer"))
+        or CommandLine has "/rdc --peer 127.0.0.1"
     | project
         EventStartTime,
         DvcHostname,
@@ -50,11 +50,10 @@ ProcessActivity
 
 Output:
 
-
-| EventStartTime [UTC]        | DvcHostname                   | ActorUsername              | ActingProcessName                                   | CommandLine                                                                                                                                                                             | TargetProcessName                                   |
-| --------------------------- | ----------------------------- | -------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| 11/11/2025, 11:24:36.431 PM | smashtitle-SAND.deathmail.net | SMASHTITLE-SAND\azureadmin | C:\Users\azureadmin\Downloads\HelpWire NCTA (2).exe | ""C:\Windows\system32\netsh.exe"" advfirewall firewall add rule name=""HelpWire Client"" dir=in action=allow program=""C:\Users\azureadmin\Downloads\HelpWire NCTA (2).exe"" enable=yes | C:\Windows\SysWOW64\netsh.exe                       |
-| 11/11/2025, 11:21:30.868 PM | smashtitle-SAND.deathmail.net | SMASHTITLE-SAND\azureadmin | C:\Windows\explorer.exe                             | ""C:\Program Files (x86)\HelpWire\Client\helpwire.exe"" urlparam ""helpwire://?token=Ekso9Kk8chJVqcYa9x1ratwIy0CsT60AwutJ4Y06&server=www.helpwire.app&quick=0"" silent                  | C:\Program Files (x86)\HelpWire\Client\helpwire.exe |
+| EventStartTime [UTC] | DvcHostname | ActorUsername | ActingProcessName | CommandLine | TargetProcessName |
+|---|---|---|---|---|---|
+| 11/11/2025, 11:24:36.431 PM | smashtitle-SanDiego.deathmail.net | SMASHTITLE-SAND\azureadmin | C:\Users\azureadmin\Downloads\HelpWire NCTA (2).exe | "C:\Windows\system32\netsh.exe" advfirewall firewall add rule name="HelpWire Client" dir=in action=allow program="C:\Users\azureadmin\Downloads\HelpWire NCTA (2).exe" enable=yes | C:\Windows\SysWOW64\netsh.exe |
+| 11/11/2025, 11:25:03.888 PM | smashtitle-SanDiego.deathmail.net | SMASHTITLE-SAND\azureadmin | C:\Users\azureadmin\Downloads\HelpWire NCTA (2).exe | "C:\Users\azureadmin\Downloads\HelpWire NCTA (2).exe" /rdc --peer 127.0.0.1:11237 --timeout 2500 | C:\Users\azureadmin\Downloads\HelpWire NCTA (2).exe |
 
 You can also find process execution artifacts in `HelpWire_ProcMon.csv`.
 
