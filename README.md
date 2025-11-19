@@ -82,3 +82,38 @@ Output:
 | 11/11/2025, 11:23:53.756 PM | smashtitle-SAND.deathmail.net | HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-1565251941-2530725656-27758556-500\\Device\HarddiskVolume4\Program Files (x86)\HelpWire\Client | helpwire.exe  | SMASHTITLE-SAND\azureadmin | C:\Program Files (x86)\HelpWire\Client\helpwire.exe | 12828           |
 
 You can also find Regshot output from diff-ing before/after snapshots of HelpWire MSI package installation in `HelpWire_Regshot_diff.txt`.
+
+
+# Miradore
+
+### Registry Activity
+`Miradore_RegistryActivity.kql` query:
+```
+let RegistryActivity = _ASim_RegistryEvent
+    | where EventType == "RegistryValueSet"
+    | where RegistryKey has @"SOFTWARE\Microsoft\Enrollments\"
+    | where RegistryValue in ("ProviderID", "UPN", "DiscoveryServiceFullURL", "EnrollmentState")
+    | extend EnrollmentGUID = extract(@"SOFTWARE\\Microsoft\\Enrollments\\([A-F0-9\-]{36})", 1, RegistryKey)
+    | where isnotempty(EnrollmentGUID)
+    | summarize 
+        EventStartTime = min(EventStartTime),
+        ProviderID = maxif(RegistryValueData, RegistryValue == "ProviderID"),
+        UPN = maxif(RegistryValueData, RegistryValue == "UPN"),
+        DiscoveryServiceFullURL = maxif(RegistryValueData, RegistryValue == "DiscoveryServiceFullURL"),
+        ActingProcessName = any(ActingProcessName),
+        ActingProcessCommandLine = any(ActingProcessCommandLine)
+        by Dvc, EnrollmentGUID, ActorUsername
+    | where isnotempty(ProviderID) or isnotempty(UPN) or isnotempty(DiscoveryServiceFullURL)
+    | project 
+        EventStartTime,
+        Dvc,
+        ActorUsername,
+        ActingProcessName,
+        ActingProcessCommandLine,
+        UPN,
+        DiscoveryServiceFullURL,
+        ProviderID;
+RegistryActivity
+```
+
+You can find Regshot diff output of before/after MDM enrollment in `Miradore_Regshot_diff.txt`. I also wrote a Sigma rule located at `Miradore_RegistryActivity.yml` as well as a generic rule for MDM enrollment success/failure events from `Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Enrollment` (Event ID 71/72). I haven't tested the KQL query above or either of these Sigma rules because the related activity isn't captured in the DEATHCon Sentinel lab. They're based on the data from the Regshot diff and local event logs generated from enrollment into Miradore device management.
