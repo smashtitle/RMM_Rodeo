@@ -1,0 +1,34 @@
+title: Windows MDM Enrollment Success/Failed Event
+id: b4e9d3f2-5c8a-4d1e-9b2f-6a7c8d9e0f1a
+status: experimental
+description: Detects successful Windows Mobile Device Management (MDM) enrollment events via Event ID 72 from the DeviceManagement-Enterprise-Diagnostics-Provider. This event fires when a device successfully enrolls in an MDM solution such as Microsoft Intune.
+references:
+    - https://docs.microsoft.com/en-us/windows/client-management/mdm/
+author: smashtitle
+date: 2025/11/18
+modified: 2025/11/18
+tags:
+    - attack.persistence
+    - attack.defense_evasion
+    - attack.t1098
+    - attack.t1078
+logsource:
+    product: windows
+    service: devicemanagement-enterprise-diagnostics-provider
+detection:
+    selection:
+        EventID:
+            - 71 # MDM Enroll: Failed
+            - 72 # MDM Enroll: Succeeded
+        Channel: 'Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Enrollment'
+    condition: selection
+falsepositives:
+    - Legitimate corporate MDM enrollment
+    - Intune device onboarding
+    - Automated enrollment via Autopilot
+level: low
+fields:
+    - EventID
+    - Message
+    - Computer
+    - User
