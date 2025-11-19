@@ -1,0 +1,36 @@
+title: Windows MDM Enrollment Registry Value Modification
+id: a3f8c2d1-4b7e-4a9c-8f1d-2e5a6c7b8d9e
+status: experimental
+description: Detects modifications to Windows Mobile Device Management (MDM) enrollment registry values under SOFTWARE\Microsoft\Enrollments. Monitors changes to ProviderID, UPN, DiscoveryServiceFullURL, and EnrollmentState values which may indicate legitimate enrollment activity or potential enrollment manipulation for persistence.
+references:
+    - https://docs.microsoft.com/en-us/windows/client-management/mdm/
+author: smashtitle
+date: 2025/11/18
+tags:
+    - attack.persistence
+    - attack.defense_evasion
+    - attack.t1112
+logsource:
+    category: registry_set
+    product: windows
+detection:
+    selection_base:
+        TargetObject|contains: '\SOFTWARE\Microsoft\Enrollments\'
+    selection_values:
+        TargetObject|endswith:
+            - '\ProviderID'
+            - '\UPN'
+            - '\DiscoveryServiceFullURL'
+            - '\EnrollmentState'
+    condition: all of selection_*
+falsepositives:
+    - Legitimate MDM enrollment operations via Intune or other MDM solutions
+    - Corporate device management enrollment activities
+    - Automated enrollment through Group Policy or provisioning packages
+level: low
+fields:
+    - TargetObject
+    - Details
+    - ProcessName
+    - CommandLine
+    - User
