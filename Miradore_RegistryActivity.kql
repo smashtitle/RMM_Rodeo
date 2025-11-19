@@ -1,0 +1,25 @@
+let RegistryActivity = _ASim_RegistryEvent
+    | where EventType == "RegistryValueSet"
+    | where RegistryKey has @"SOFTWARE\Microsoft\Enrollments\"
+    | where RegistryValue in ("ProviderID", "UPN", "DiscoveryServiceFullURL", "EnrollmentState")
+    | extend EnrollmentGUID = extract(@"SOFTWARE\\Microsoft\\Enrollments\\([A-F0-9\-]{36})", 1, RegistryKey)
+    | where isnotempty(EnrollmentGUID)
+    | summarize 
+        EventStartTime = min(EventStartTime),
+        ProviderID = maxif(RegistryValueData, RegistryValue == "ProviderID"),
+        UPN = maxif(RegistryValueData, RegistryValue == "UPN"),
+        DiscoveryServiceFullURL = maxif(RegistryValueData, RegistryValue == "DiscoveryServiceFullURL"),
+        ActingProcessName = any(ActingProcessName),
+        ActingProcessCommandLine = any(ActingProcessCommandLine)
+        by Dvc, EnrollmentGUID, ActorUsername
+    | where isnotempty(ProviderID) or isnotempty(UPN) or isnotempty(DiscoveryServiceFullURL)
+    | project 
+        EventStartTime,
+        Dvc,
+        ActorUsername,
+        ActingProcessName,
+        ActingProcessCommandLine,
+        UPN,
+        DiscoveryServiceFullURL,
+        ProviderID;
+RegistryActivity
